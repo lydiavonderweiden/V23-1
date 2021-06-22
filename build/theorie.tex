@@ -1,1 +1,220 @@
+\section{Zielsetzung}
+\label{sec:Ziel}
 
+Ziel des Versuches ist es mit Hilfe der Faraday-Rotation die effektive Masse $m^*$ des Halbleiters Galliumarsenid (n-GaAs) zu bestimmen. Die Faraday-Rotation beschreibt dabei die Drehung der Polarisationsebene einer elektromagnetischen Welle bei Durchquerung eines Materials unter dem Einfluss eines Magnetfeldes parallel zur Ausbreitungsrichtung.
+
+\section{Theorie}
+\label{sec:Theorie}
+
+In diesem Experiment wird die effektive Masse von dem Halbleiter Galliumarsenid (n-GaAs) bestimmt. Halbleiter sind Materialien deren Bandlücke zwischen Valenzband und Leitungsband klein ist. Die Bandlücke bezeichnet dabei einen quantenmechanisch verbotenen Energiebereich im Material. So wirken sie bei niedrigen Temperaturen wie Isolatoren, weil keine Elektronen genug Energie haben um ins Leitungsband zu kommen und bei höheren Temperaturen erhöht sich ihre Leitfähigkeit, weil immer mehr Elektronen genügend Energie besitzen um ins Leitungsband zu kommen. Die Energie der Elektronen folgt dabei immer der Fermi-Dirac-Verteilung.
+
+\subsection{Dotierung eines Halbleiters}
+\label{sec:Dotierung}
+
+In die Kristallstruktur von Halbleitern können Fremdatome mit einer anderen Wertigkeit eingebaut werden. Geschieht dies spricht man von einer Dotierung des Halbleiters. Die Stellen an denen die Fremdatome im Kristall sich befinden werden auch "Störstellen" genannt. Hierbei besitzt GaAs 4 Außenelektronen. Das Kristallgitter besteht also aus 4 kovalenten Bindungen.
+
+Wenn nun Atome wie Phosphor mit 5 Außenelektronen an den Störstellen eingebracht werden, kommt es zu einem Elektronenüberschuss an der Störstelle. Das Phosphor wird dann als Donator bezeichnet und der Halbleiterkristall ist dann n-dotiert. Dieses zusätzlich Elektron ist nun nicht im Kristallgitter gebunden und aknn sich somit frei bewegen. Bei einer Anlegung einer Spannung kann sich das Elektron frei bewegen und somit zur Leitfähigkeit beitragen. Das valenzband der Störstellen befindet sich nur leicht unterhalb des Leitungsbandes.
+
+Wenn nun Atome wie Kohlenstoff mit 3 Außenelektronen an den Störstellen eingebracht werden, fehlt ein Elektron für die 4. Stelle zur Bindung im Gitter. Diese Elektronenfehlstelle wird als "Loch" \, oder "Defektelektron" bezeichnet. Der Kohlenstoff wird dann als Akzeptor bezeichnet. Bei Anlegung einer Spannung verhält sich das Loch wie eine freie positive Ladung. Ein Elektron füllt dann die fehlende Stelle aus und hinterlässt wiederum wieder ein Loch, dadurch kann sich das Loch bei angelegter Spannung durch das Kristall wandern und trägt somit zum Strom bei. Das valenzband der Störstellen befindet sich nur leicht oberhalb des Valenzbandes.
+
+Reines GaAs hat eine Bandlücke von $1, \! 42 \, \mathrm{eV}$ somit ist es bei einer Raumtemperatur von $300 \, \mathrm{K}$ nicht leitfähig. Somit kann GaAs nur durch eine Dotierung auch bei Zimmertemperatur leitfähig sein, denn eine Dotierung reduziert die Bandlücke auf nur $30 \, \mathrm{meV}$ bis $130 \, \mathrm{meV}$.
+
+\subsection{Effektive Masse}
+\label{sec:eff_masse}
+
+Die Bandstruktur von Halbleitern ist im Allgemeinen kompliziert. Um eine einfachere Beschreibung von den Elektronen im Leitungsband des Halbleiters zu erschaffen, wird das Konzept der effektiven Masse an Stelle der gewöhnlichen Masse eines Elektrons eingeführt. Freie Elektronen der Masse $m_e$ besitzen folgende Dispersionsrelation:
+
+\begin{align}
+    E(\vec{k}) &= \frac{\hbar^2 k^2}{2 m_e}
+    \label{eqn:frei}
+\end{align}
+
+Dabei ist $E(\vec{k})$ die Energie in Abhängigkeit vom Wellenvektor $\vec{k}$ und $k$ die Wellenzahl des Elektrons. Innerhalb eines Kristalls befindet sich das Elektron jedoch in einem periodischen Potential und kann somit nicht mehr als frei betrachtet werden. nimmt man das Minimum des Potentials bei $k = 0$ an, kann die Funktion der Elektronenenergie $\epsilon (\vec{k})$ durch eine Taylorentwicklung folgender Art angenähert werden:
+
+\begin{align}
+    \epsilon (\vec{k}) &= \epsilon (0) + \frac{1}{2} \sum^3_{i=1} \left( \frac{\partial \epsilon}{\partial k_i} \right)^2
+    \label{eqn:taylor}
+\end{align}
+
+Diese Taylorreihe entspricht einer Parabel entlang des Minimums des Leitfähigkeitsband und entspricht damit einer guten Approximation der Bandstruktur für das Leitungsband. Mit der effektiven Masse $m^*$ an der Stelle von der Elektronenmasse $m_e$ kann das Elektron wieder als ein freies Teilchen betrachtet werden. Also folgt mit Gleichung \eqref{eqn:frei} folgende Beziehung
+
+\begin{align}
+    \epsilon &= \frac{\hbar^2 k^2}{2 m^*}
+    \label{eqn:eff_frei}
+\end{align}
+
+kann die effektive Masse wie folgt definiert werden:
+
+\begin{align}
+    m^*_i &= \frac{\hbar^2}{\, \, \, \frac{\partial^2 \epsilon}{\partial k^2_i} \big \vert_{k=0} \, \, \,}
+    \label{eqn:eff_masse}
+\end{align}
+
+Die effektive Masse ist also ein Tensor mit 9 Komponenten. In Gleichung \eqref{eqn:eff_masse} ist auch zu erkennen, dass die effektive Masse die inverse Krümmung der Dispersionrelation $\epsilon (\vec{k})$ angibt. Für einen symmetrischen Kristall kann die Dispersionsrelation noch wie folgt angegeben werden:
+
+\begin{align}
+    \epsilon (\vec{k}) &= \epsilon (0) + \frac{\hbar^2 k^2}{2 m^*}
+    \label{eqn:eff_disp}
+\end{align}
+
+Für die Schrödingergleichung fällt dann mit der effektiven Masse das Kristallpotential $V(\vec{r})$ weg und der Hamiltonoperator vereinfacht sich zu:
+
+\begin{align}
+    \hat{H} &= \frac{\hbar^2}{2 m^*} \Laplace
+    \label{eqn:Hamilton}
+\end{align}
+
+\subsection{Zirkulare Doppelbrechung}
+\label{sec:Doppel}
+
+Zirkluare Doppelbrechung bezeichnet die Fähigkeit eines Kristalls die Polarisationsebene von linear polarisierten Lichts beim Durchgang durch das Medium zu drehen. Diese Eigenschaft wird auch optische Aktivität genannt. Der Drehwinkel nimmt mit zunehmender Dicke des Materials und zunehmender Wellenlänge ab. Im Allgemeinen kann linear polarisiertes Licht $\vec{E}$ als eine Überlagerung von rechts- und linksläufigen zirkluarem Licht zerlegt werden:
+
+\begin{equation}
+    \vec{E} (z) = \frac{1}{2} \left( \vec{E}_R (z) + \vec{E}_L (z) \right)
+    \label{eqn:zirk}
+\end{equation}
+
+Zur Vereinfachung werden im Folgenden noch 2 Variablen definiert aus den Wellenzahlen $k_R$ und $k_L$ der zirkularen Wellen, wobei $k_R \neq k_L$ gilt:
+
+\begin{align*}
+    \theta &= \frac{1}{2} \left( k_R - k_L \right) \\
+    \psi &= \frac{1}{2} \left( k_R + k_L \right)
+\end{align*}
+
+Mit Hilfe der eulerschen Formeln kann für linear polarisiertes Licht an der Stelle $z=d$, wobei $d$ der Austrittspunkt aus dem Kristall ist:
+
+\begin{equation}
+    \vec{E} (d) =  E_0 e^{i \psi} \left( \text{cos} \left( \theta \, \vec{x} \right) + \text{sin} \left( \theta \, \vec{y} \right) \right)
+\end{equation}
+
+Dabei ist $E_0$ die Amplitude der Welle und $\vec{x}$, $\vec{y}$ ist die Schwingung in $x$ und $y$ Richtung senkrecht zur Ausbreitungsrichtung.
+Mit der Phasengeschwindigkeit $v_{ph} = \frac{\omega}{k}$ kann $\theta$ wie folgt ausgedrückt werden:
+
+\begin{equation}
+    \theta = \frac{d \omega}{2} \, \left( \frac{1}{v_{ph,R}} - \frac{1}{v_{ph,L}} \right) = \frac{L \omega}{2 c} (n_R - n_L)
+    \label{eqn:theta}
+\end{equation}
+
+Hierbei sind $n_R$ und $n_L$ die Brechungsindizes für links- und rechtsläufig zirkular polarisiertes Licht und $c$ die Lichtgeschwindigkeit im Vakuum.
+
+In einem Kristall können Dipolmomente durch die Atome auf den Gitterplätzen und durch die Wechselwirkung zwischen den Atomrümpfen und den Bandelektronen entstehen. Diese induzierten Dipolmomente erzeugen die zirkluare Doppelbrechung. Im Kristall entsteht dann eine makroskopische Polarisierung $\vec{P} \,$:
+
+\begin{equation}
+    \vec{P} = \epsilon_0 \chi \vec{E}
+    \label{eqn:P}
+\end{equation}
+
+Dabei ist $\epsilon_0$ die elektromagnetischen Feldkonstante und $\chi$ ist die dielektrische Suszeptibilität. Im Allgemeinen ist $\chi$ ein Tensor 3. Stufe, nur bei isotropen Materialien ist $\chi$ eine skalare Größe. Es kann gezeigt werden, dass wenn $\chi$ folgende Gestalt hat
+
+\begin{equation}
+    \chi = \begin{pmatrix}
+            \chi_{xx} & i \chi_{xy} & 0 \\
+            -i \chi_{xy} & \chi_{yy} & 0 \\
+            0 & 0 & \chi_{zz}
+        \end{pmatrix} ,
+    \label{eqn:chi}
+\end{equation}
+
+dass dann das Material doppelbrechend wird. Für optisch inaktive Materie ist $\chi$ diagonal.
+
+Zusätzlich gilt für die Wellenzahl $k$:
+
+\begin{equation}
+    k_\pm = \frac{\omega}{c} \sqrt{1 + \chi_{xx} \pm \chi_{xy}}
+    \label{eqn:k}
+\end{equation}
+
+Mit Hilfe von Gleichung \eqref{eqn:theta} ergibt sich dann für den Drehwinkel $\theta$:
+
+\begin{equation}
+    \theta = \frac{L \omega}{2 c} \left( \sqrt{1 + \chi_{xx} + \chi_{xy}} - \sqrt{1 + \chi_{xx} - \chi_{xy}} \right)
+    \label{eqn:Drehung}
+\end{equation}
+
+Die Gleichung \eqref{eqn:Drehung} kann mit einer Taylorentwicklung bis zur 1. Ordnung der Wurzelausdrücke wie folgt vereinfacht werden:
+
+\begin{equation}
+    \theta = \frac{L \omega}{2 c n} \chi_{xy}
+    \label{eqn:taylor_theta}
+\end{equation}
+
+\subsection[Bestimmung des Rotationswinkel beim Faraday Effekt]{Bestimmung des Rotationswinkel $\theta$ beim Faraday Effekt}
+\label{sec:Rotation}
+
+Der Faraday Effekt beschreibt also das ein optisch inaktives Material wie GaAs durch Anlegung eines externen Magnetfeldes $\vec{B}$ zirkular doppelbrechend wird. Für ein gebundenes Elektron mit der Masse $m$ im Kristall mit externen Magenetfeld $\vec{B}$ gilt dann folgende Bewegungsgleichung:
+
+\begin{equation}
+    m \, \frac{d^2 \vec{r}}{dt^2} + K \, \vec{r} = - e_0 \vec{E} \left( \vec{r} \right) - e_0 \frac{d \vec{r}}{dt} \times \vec{B}
+    \label{eqn:beweg}
+\end{equation}
+
+Dabei ist $\vec{r}$ die Auslenkung aus der Gleichgewichtslage des Elektrons, $e_0$ die Elementarladung, $\vec{E}$ die Feldstärke des Lichtes und $K$ ist die Verdet-Konstante, die die Bindung in der Umgebung angibt. Die einfallende elektromagnetische Welle hat einen vernachlässigbaren Einfluss auf das Magnetfeld $\vec{B}$ im Medium. Unter Vernachlässigung von Dämpfungseffekten gilt:
+
+\begin{equation}
+    \vec{P} = - N e_0 \vec{r}
+    \label{eqn:prop}
+\end{equation}
+
+Hierbei gibt $N$ die Anzahl an Elektronen im Medium an. Durch das Magnetfeld $\vec{B}$ im Medium treten in $\chi$ nicht-diagonale Komponenten auf und das eigentlich optisch inaktive Medium wird optisch aktiv. Der Drehwinkel $\theta$ beträgt dann:
+
+\begin{equation}
+    \theta = \frac{e_0^3}{2 \epsilon_0 c} \frac{\omega^2}{\left( - \omega^2 + \frac{K}{m} \right) - \left( \frac{e_0}{m} \, B \omega \right)^2} \frac{1}{m^2} \frac{N B L}{n}
+    \label{eqn:theta}
+\end{equation}
+
+Dabei ist $n$ die Anzahl der Elektron pro Volumen, $L$ die Länge des Mediums und $B$ ist die Stärke des Magnetfeldes. $\sqrt{\frac{K}{m}}$ ist hierbei die Resonanzfrequenz $\omega_0$ und $\frac{e_0 B}{m}$ ist die Zyklotronfrequenz $\omega_c$. Im Experiment ist die Messfrequenz viel kleiner als $\omega_0$ und die Resonanzfrequenz viel größer als $\omega_c$. Damit lässt sich Gleichung \eqref{eqn:theta} vereinfachen zu:
+
+\begin{equation}
+    \theta ( \lambda ) \approx \frac{2 \pi^2 e_0^3 c}{\epsilon_0} \frac{1}{\lambda^2 \omega_0^4} \frac{1}{m^2} \frac{N B L}{n}
+    \label{eqn:theta_approx}
+\end{equation}
+
+Hierbei steht $\lambda$ für die Wellenlänge des Lichts. Für den Grenzfall $\omega_0 \rightarrow 0$ und für freie Ladungsträger gilt dann:
+
+\begin{equation}
+    \theta_{frei} = \frac{e_0^3 \lambda^2}{8 \pi^2 \epsilon_0 c^3} \frac{1}{m^2} \frac{N B L}{n}
+    \label{eqn:theta_frei}
+\end{equation}
+
+Im Kontext des Versuches muss in Gleichung \eqref{eqn:theta_frei} die Masse $m$ durch die effektive Masse $m^*$ getauscht werden, damit die Elektronen im Kristall als näherungsweise frei betrachtet werden können. Außerdem ist in Gleichung \eqref{eqn:theta_frei} zu erkennen, dass der Drehwinkel $\theta$ proportional zu $m^{-2}$ bzw. ${m^*}^{-2}$ ist und direkt von $n$ und $\lambda$ abhängt.
+
+\subsection{Das Glan-Thomson Prisma}
+\label{sec:Prisma}
+
+Abbildung \ref{fig:Prisma} zeigt den Aufbau eines Glan-Thomson Prisma.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{build/skizzeapparatur.jpg}
+    \caption{Skizze eines Glan-Thompson Prismas.}
+    \label{fig:Prisma}
+\end{figure}
+
+Ein Glan-Thomson Prisma besteht aus zwei durch eine dünne Schicht eines durchsichtigen Klebers von einander getrennten Prismen, diese Prismen bilden einen Quader. Die Aufgabe eines Glan-Thomson Prisma ist als Strahlteiler zu dienen. Ein unpolarisierter Strahl trifft senkrecht in das Prisma ein und wird in zwei senkrecht zueinander polarisierten Wellen geteilt. Der Teil des Strahls, der parallel zur optischen Achse des Kristalls polarisiert ist, wird an der Schnittfläche unter dem Winkel $\alpha$ totalreflektriert und der Strahl, der senkrecht zur optischen Achse des Kristalls polarisiert ist, wird transmittiert. Der Strahl, der totalreflektriert wird, wird als \textit{ordentlicher Strahl} bezeichnet. Der Strahl, der transmittiert wird, wird als \textit{außerordentlicher Strahl} bezeichnet. Dies liegt daran, dass der Brechungsindex des Prisma unterschiedlich ist für die Polarisierung und der Kleber einen Brechungsindex $n_K$ besitzt, der genau zwischen den Brechungsindizes $n_o$ und $n_{ao}$ liegt. Für die Brechungsindizes gilt also:
+
+\begin{equation*}
+    n_{ao} < n_K < n_o
+\end{equation*}
+
+Durch diese unterschiedlichen Brechungsindizes für die Polarisierungen kommt es entweder zur Totalreflektion oder zur Transmission. Im Experiment wird das Glan-Thomson Prisma auch Strahlteiler genannt. 
+
+\subsection{Der Interferenzfilter}
+\label{sec:Filter}
+
+Abbildung \ref{fig:Filter} zeigt den Aufbau eines Inteferenzfilter.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{build/skizzefilter.jpg}
+    \caption{Skizze eines Inteferenzfilters.}
+    \label{fig:Filter}
+\end{figure}
+
+Der Inteferenzfilter besteht aus zwei reflektierenden Schichten, wozwischen sich ein Dielektrikum mit Brechungindex $n$ befindet. Die reflektierenden Schichten reflektieren einen Teil der Welle und transmittieren einen Teil. Beim senkrechten Eintreffen einer Welle dringt sie teilweise in das Dielektrikum ein. Zwischen den Schichten wird es mehrfach reflektiert. Die Teilwellen im Dielektrikum inteferieren. Konstruktive Inteferenz kann nur unter folgender Bedingung auftreten:
+
+\begin{equation}
+    k \cdot \lambda = 2 n d + \increment \lambda \, \, , \, \, \, \, \, \, \, k \in \mathbb{N}
+    \label{eqn:Filter}
+\end{equation}
+
+Dabei ist $d$ die Dicke des Dielektrikums, $\increment \lambda$ ist ein möglicher zusätzlicher Gangunterschied, der bei der Reflektion auftreten kann und $\lambda$ ist die Wellenlänge der eintreffenden Welle. Ein Inteferenzfilter kann also durch die Wahl der Dicke des Dielektrikums eine nicht monochromatische Lichtquelle durch Inteferenz nach einer bestimmten Wellenlänge und Vielfache dieser filtern, denn, wenn Bedingung \eqref{eqn:Filter} nicht erfüllt ist, kommt es zu destruktiven Inteferenzen und die Teilwellen löschen sich gegenseitig aus. Also kann mit einem Inteferenzfilter eine Lichtquelle nach einer gewünschten Welllenlänge gefiltert werden und damit monochromatisiert werden, solange nicht Vielfache der gewünschten Wellenlänge im Spektrum der Quelle vorkommen.

@@ -1,0 +1,44 @@
+\section{Aufbau und Durchführung}
+\label{sec:Durchführung}
+
+Eine schematische Darstellung des Versuchsaufbaus ist in Abbildung \ref{fig:aufbau} wiedergegeben. Fotos von dem Versuch sind in Abbildung \ref{fig:fotos} zu sehen. 
+Eine Lichtquelle (hier eine Halogenlampe mit $12\,\si{\volt}$ und $50 \,\si{\watt}$) wird durch eine Linse gebündelt und durch eine rotierende Scheibe mit Spalten in einzelne Lichtimpulse zerteilt. 
+Um das Licht linear zu polarisieren, wird es durch ein Glan-Thompson Prisma durchgeführt. Das Licht trifft danach auf die Probe, welche sich auf der Symmetrieebene 
+des Elektromagneten befindet. Der Lichtstrahl wird dann monochromatisiert an einem Interferenzfilter und geht danach durch ein zweites Glan-Thompson Prisma. Dadurch ist das Licht nun in zwei verschiedene senkrecht zueinander polarisierte Strahlen geteilt. 
+Die Intensitäten dieser beiden Strahlen wird anschließend mit einem Photowiderstand gemessen. Da nur die Differenz der beiden Intensitäten wichtig ist, 
+werden die Intensitätsströme in einen Differenzverstärker gegeben. Wenn beide Signalspannungen in Betrag und Phase übereinstimmen, gibt der Differenzverstärker einen minimalen Output aus. 
+Das Signal vom Verstärker wird in ein Selektivverstärker gegeben, welches auf die Frequenz des Lichtzerhackers gestellt wird. Anschließend kommt das Signal an einem Oszillosgraphen an.\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{build/Aufbau.PNG}
+    \caption{Schematischer Aufbau des Versuchs. \cite{Anleitung}}
+    \label{fig:aufbau}
+\end{figure}
+\begin{figure}
+    \centering
+    \begin{subfigure}{.4\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{build/Bild1.jpeg}
+        %\caption{Foto 1}
+    \end{subfigure}
+    \begin{subfigure}{.4\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{build/Bild2.jpeg}
+        %\caption{Foto 2}
+    \end{subfigure}
+    \caption{Fotos von dem Versuchsaufbau.}
+    \label{fig:fotos}
+\end{figure}
+
+Zu Beginn muss das Experiment justiert werden. Dafür wird der Inteferenzfilter und die Probe entfernt. Zuerst muss die Funktionsweise der Polarisationsvorrichtung geprüft werden, indem getestet wird, ob bei einer geiegnten Stellung des Polarisationsprismas der Strahl hinter dem Analysatorprisma verschwindet. Im nächsten Schritt werden die Deckel über den Photowiderständen entfernt, sodass zwischen der Sammellinse und dem Photowiderstand jeweils geschaut werden kann. Der Strahl sollte zentral auf die Widerstand treffen und durch Rotation des Polarisator sollte das Licht bei den jeweiligen Photowiderständen verschwinden und wieder erscheinen. Wenn dies nicht passiert muss die Justierung der Apparatur korrigiert werden. Nun wird der Lichtzerhacker auf eine Frequenz von $f = 450 \, \mathrm{Hz}$ eingeschaltet und der Selektivverstärker auf dieselbe Frequenz. Aufgabe des Lichtzerhackers und des Selektivverstärkers ist, dem Licht eine bestimmte Frequenz zu geben, damit der Selektivverstärker die Signale nach dieser Frequenz filtern kann und damit einen Großteil der Störsignale mit unterschiedlichen Frequenzen unterdrücken kann. Wenn nun ein Photowiderstand am Selektivverstärker mit \textit{Input} angeschlossen wird und der Ausgang \textit{Resonance} an das Oszilloskop sollte nur noch eine kleine Reststörspannung zu sehen sein. Anschließend wird eine Probe und der Intefernzfilter eingesetzt und die Photowiderstände an den A- und B-Inputs des Differenzverstärkers angeschlossen. Der Output geht in den Input des Selektivverstärkers der Ausgang \textit{Resonance} wieder an das Oszilloskop. Nun solte ein Signal am Oszilloskop zu sehen sein, dass varriert je nach Winkel des Polarisationsprismas. Es sollte ein Minimum erscheinen mit einer Periodizität von 90° der Rotation des Polarisators. Wenn dies erreicht ist, ist das Experiment erfolgreich justiert. Während des Experiments sollte eine Übersättigung oder auch Overload genannt des Selektivverstärkers verhindert werden, dass durch Aufleuchten einer roten Lampe singnalisiert wird. \\
+
+In der Durchführung wird zunächst die Stärke des Elektromagneten an verschiedenen Orten präzise mit einer Hallsonde vermessen. Die Proben werden an die stärkste Stelle des Elektromagneten (die Symmetrieebene) befestigt. 
+Es müssen die Winkel von drei verschiedenen Halbleiterproben gemessen werden. Die Proben sind alle Galliumarsenide. Die erste Probe ist hochrein, die zweite ist leicht n-dotiert ($N = 1,2 \cdot 10^{18}\,\si{\per\centi\metre\cubed}$) 
+und die dritte Probe besitzt eine stärkere n-Dotierung ($N = 2,8 \cdot 10^{18} \,\si{\per\centi\metre\cubed}$). Für jedes dieser Proben werden 9 verschiedene Interferenzfilter verwenden und die entsprechenden Winkel ausgemessen. 
+Das wird gemacht, indem der Winkel des zweiten Prismas so verstellt und variiert wird, bis der Spannungsunterschied an den Photowiderständen möglichst verschwindet. Das Magnetfeld wird anschließend umgepolt und diese Messung wiederholt. 
+Der gesuchte Winkel ist die Hälfte der Differenz der beiden gemessen Winkel:
+
+\begin{align*}
+    \theta = \frac{1}{2} (\theta_1 - \theta_2).
+\end{align*}
