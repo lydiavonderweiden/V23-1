@@ -96,12 +96,39 @@ Die Eigenenergiewerte des Wasserstoffatoms betragen:
     \label{eqn:H_energien}
 \end{equation}
 
-Dabei bezeichnet $a_0 = \frac{4 \pi \epsilon_0 \hbar^2}{m e^2}$ den Bohrschen Radius. In Gleichung \eqref{eqn:H_energien} ist auffällig, dass die Eigenenergiewerte beim Wasserstoffatom eine Entartung in $m$ aufzeigen, die durch die sphärische Symmetrie resultiert. Diese Entartung kann durch ein anlegen eines äußeren Magnetfeldes aufgehoben werden. Durch die Felder wird die Symmetrie gebrochen. Dieser Effekt wird \textit{Zeemanneffekt} genannt. Die Entartung in $l$ ist jedoch ein Resultat aus dem $\frac{1}{r}$ - Potential.
+Dabei bezeichnet $a_0 = \frac{4 \pi \epsilon_0 \hbar^2}{m e^2}$ den Bohrschen Radius. In Gleichung \eqref{eqn:H_energien} ist auffällig, dass die Eigenenergiewerte beim Wasserstoffatom eine Entartung in $m$ aufzeigen, die durch die sphärische Symmetrie resultiert. Diese Entartung kann durch ein anlegen eines äußeren Magnetfeldes aufgehoben werden. Durch die Felder wird die Symmetrie gebrochen. Dieser Effekt wird \textit{Zeemanneffekt} genannt. Die Entartung in $l$ ist jedoch ein Resultat aus dem $\frac{1}{r}$ - Potential. Zusätzlich führt die Berücksichtigung von Spin und relativistischen Beiträgen zu weiteren Aufspaltungen, diese wurden hierbei jedoch nicht berücksichtigt.
 
 \subsection{Das Wasserstoffmolekül}
 \label{sec:H2}
 
+Das Wasserstoffmolekül $H_2$ besteht aus 2 Wasserstoffatomen und ist damit das einfachste neutrale Molekül. Es besteht also aus 2 positiven Protonen und 2 Elektronen. Dieses Problem ist jedoch nicht analytisch lösbar. Jedoch existieren Näherungen, um die Wellenfunktion des Systems zu approximieren. Die zu lösende Schrödingergleichung lautet:
 
+\begin{equation}
+    E \, \Psi (1, 2) = \left( \hat{H}_1 + \hat{H}_2 - \frac{e^2}{r_{a2}} - \frac{e^2}{r_{b1}} - \frac{e^2}{r_{12}} - \frac{e^2}{R_{ab}} \right) \, \Psi (1, 2)
+    \label{eqn:H2}
+\end{equation}
+
+Hierbei sind $\hat{H}_{1,2}$ die Hamiltonoperatoren der einzelnen Wasserstoffatome, und die anderen Variablen beschreiben die Abstände der Elektronen 1 und 2 zu den Kernen a und b aus Abbildung \ref{fig:H2}.
+
+%Bild muss ich noch einfügen bzw selber zeichnen
+
+Da die Elektronen Fermionen sind unterliegen sie dem \textit{Pauli-Verbot} und dies muss auch die Wellenfunktion erfüllen. Also muss die Gesamtwellenfunktion antisymmetrisch sein. Die Gesamtwellenfunktion $\Psi (1,2)$ besteht aus einer Ortswellenfunktion $\tilde{\Psi} (1,2)$ und einer Spinwellenfunktion $S (1,2)$:
+
+\begin{equation}
+    \Psi (1,2) = \tilde{\Psi} (1,2) \cdot S (1,2)
+    \label{eqn:gesamt}
+\end{equation}
+
+Dadurch muss die Spinwellenfunktion antisymmetrisch sein, falls die Ortswellenfunktion symmetrisch ist und vice versa. Dadurch ergeben sich 4 mögliche Wellenfunktionen:
+
+\begin{align}
+    \Psi_{t1} (r_1, r_2) &= \, \uparrow_1 \uparrow_2 \left( \Psi_a (r_1) \Psi_b (r_2) - \Psi_a (r_2) \Psi_b (r_1) \right) \\
+    \Psi_{t2} (r_1, r_2) &= \, \downarrow_1 \downarrow_2 \left( \Psi_a (r_1) \Psi_b (r_2) - \Psi_a (r_2) \Psi_b (r_1) \right) \\
+    \Psi_{t3} (r_1, r_2) &= \frac{1}{\sqrt{2}} \left( \uparrow_1 \downarrow_2 + \uparrow_2 \downarrow_1 \right) \left( \Psi_a (r_1) \Psi_b (r_2) - \Psi_a (r_2) \Psi_b (r_1) \right) \\
+    \Psi_{s} (r_1, r_2) &= \frac{1}{\sqrt{2}} \left( \uparrow_1 \downarrow_2 - \uparrow_2 \downarrow_1 \right) \left( \Psi_a (r_1) \Psi_b (r_2) + \Psi_a (r_2) \Psi_b (r_1) \right)
+\end{align}
+
+Dabei bilden die $\Psi_t$ Wellenfunktionen das Triplett mit antisymmetrischer Ortswellenfunktion und symmetrischer Spinwellenfunktion dies wird als Orthowasserstoff bezeichnet. $\Psi_s$ ist das Singulett mit antisymmetrischer Spinwellenfunktion und symmetrischer Ortswellenfunktion und wird als Parawasserstoff bezeichnet. 
 
 \subsection{Der 1-dim Festkörper}
 \label{sec:festkoerper}
