@@ -128,7 +128,7 @@ Dadurch muss die Spinwellenfunktion antisymmetrisch sein, falls die Ortswellenfu
     \Psi_{s} (r_1, r_2) &= \frac{1}{\sqrt{2}} \left( \uparrow_1 \downarrow_2 - \uparrow_2 \downarrow_1 \right) \left( \Psi_a (r_1) \Psi_b (r_2) + \Psi_a (r_2) \Psi_b (r_1) \right)
 \end{align}
 
-Dabei bilden die $\Psi_t$ Wellenfunktionen das Triplett mit antisymmetrischer Ortswellenfunktion und symmetrischer Spinwellenfunktion dies wird als Orthowasserstoff bezeichnet. $\Psi_s$ ist das Singulett mit antisymmetrischer Spinwellenfunktion und symmetrischer Ortswellenfunktion und wird als Parawasserstoff bezeichnet. 
+Dabei bilden die $\Psi_t$ Wellenfunktionen das \textit{Triplett} mit antisymmetrischer Ortswellenfunktion und symmetrischer Spinwellenfunktion, dies wird als \textit{Orthowasserstoff} bezeichnet. $\Psi_s$ ist das \textit{Singulett} mit antisymmetrischer Spinwellenfunktion und symmetrischer Ortswellenfunktion und wird als \textit{Parawasserstoff} bezeichnet. 
 
 \subsection{Der 1-dim Festkörper}
 \label{sec:festkoerper}
@@ -139,6 +139,29 @@ Beim Festkörper kommt es durch das Pauli-Prinzip, das beschreibt dass 2 Fermion
     E(k) = \frac{\hbar^2 k^2}{2 m}
     \label{eqn:disp}
 \end{equation}
+
+In einem eindimensionalen Festkörper wird ein Elektron in einem periodischen Potential $U(x)$ betrachtet. Das Potential und die Wellenfunktion in eine Fourierreihe entwickelt ergibt dann:
+
+\begin{align}
+    U (x) &= \sum_G U_G \cdot e^{iGx} \\
+    \Psi (x) &= \sum_k C_k \cdot e^{ikx}
+\end{align}
+
+Aus den periodischen Randbedingungen ergibt sich dann $k = \frac{2 \pi}{L} n$. Dies eingesetzt in die Schrödingergleichung ergibt dann:
+
+\begin{equation}
+    E \, \Psi (x) = \left( - \frac{\hbar^2}{2m} \Laplace + U (x) \right) \Psi (x)
+    \label{eqn:fest_schroed}
+\end{equation}
+
+Für ein Elektron ergibt sich dann folgende Gleichung:
+
+\begin{equation}
+    \left( \frac{\hbar^2 k^2}{2m} - E \right) C_k + \sum_G U_G C_{k-G} = 0
+    \label{eqn:fest_el}
+\end{equation}
+
+Die Darstellung der Dispersionsrelation muss jedoch auf ein reduziertes Zonenschema mit Wellenvektor beschränkt auf $- \frac{\pi}{a} \leq k \leq \frac{\pi}{a}$ eingegrenzt werden. Das vollständige Zonenschemaergibt sich durch periodisches aneinander Reihen dieser Dispersionsrelation vom reduzierten Zonenschema. Die Zone, die das reduzierte Zonenschema umfasst, wird auch als die \textit{erste Brillouin-Zone} bezeichnet.  
 
 Jedoch sind Festkörper in der Realität nicht zu $100 \%$ reine Kristalle und besitzen oft Defekte. Diese Defekte werden häufig durch Fehlstellen oder Fremdatome in der Kristallstruktur ausgelöst und müssen durch veränderte Potentialtöpfe modelliert werden
 
