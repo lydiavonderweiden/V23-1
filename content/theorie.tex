@@ -25,10 +25,10 @@ Dabei ist $\Psi \! \left( \vec{r} \right)$ ist die Wellenfunktion, $E$ die Gesam
     \label{eqn:H_H}
 \end{equation}
 
-Hierbei ist $\hat{p}$ der Impulsopertaor, $\hbar$ das gekürzte planksche Wirkungsquantum, $m$ die Masse des Elektrons, $e$ die Elementarladung und $\epsilon_0$ die elektrische Feldkonstante. Aufgrund der Kugelsymmteire des Systemes werden Kugelkoordinaten verwendet, dort lautet der Laplace-Operator $\Laplace$ für eine Beispielfunktion $f$:
+Hierbei ist $\hat{p}$ der Impulsopertaor, $\hbar$ das gekürzte planksche Wirkungsquantum, $m$ die Masse des Elektrons, $e$ die Elementarladung und $\epsilon_0$ die elektrische Feldkonstante. Aufgrund der Kugelsymmteire des Systemes werden Kugelkoordinaten verwendet, dort lautet der Laplace-Operator $\Laplace$:
 
 \begin{equation}
-    \Laplace f = \frac{1}{r^2} \frac{\partial}{\partial r} \left( r^2 \frac{\partial f}{\partial r} \right) + \frac{1}{r^2 \sin \theta} \frac{\partial}{\partial \theta} \left( \sin \theta \frac{\partial f}{\partial \theta} \right) + \frac{1}{r^2 \sin^2 \theta} \frac{\partial^2 f}{\partial \phi^2}
+    \Laplace = \frac{1}{r^2} \frac{\partial}{\partial r} \left( r^2 \frac{\partial}{\partial r} \right) + \frac{1}{r^2 \sin \theta} \frac{\partial}{\partial \theta} \left( \sin \theta \frac{\partial}{\partial \theta} \right) + \frac{1}{r^2 \sin^2 \theta} \frac{\partial^2}{\partial \phi^2} = \Laplace_r + \frac{1}{r^2} \Laplace_{\theta, \phi}
     \label{eqn:laplace}
 \end{equation}
 
@@ -54,12 +54,14 @@ und
     |m| &\leq l .
 \end{align*}
 
-Mit dem Seperationsansatz entstehen zwei entkoppelte Differentialgleichungen. Für dieses Experiment ist jedoch nur die Lösung des Winkelanteils interessant, da nur dieser in dem akustischen Modell modelliert werden kann. Dies führt für den Winkelanteil zu folgender Differentialgleichung:
+Mit dem Seperationsansatz entstehen zwei entkoppelte Differentialgleichungen. Für dieses Experiment ist jedoch nur die Lösung des Winkelanteils interessant, da nur dieser in dem akustischen Modell modelliert werden kann. Dies führt für den Radialanteil und Winkelanteil zu folgender Differentialgleichung:
 
-\begin{equation}
-    \Laplace_{\theta, \phi} \, \Phi_{lm} (\theta, \psi) = - l (l+1) \Phi_{lm}
-    \label{eqn:eigenwert}
-\end{equation}
+\begin{align}
+    E R_{nl}(r) &= \left( - \frac{\hbar^2}{2mr} \frac{\partial^2}{\partial r^2} r - \frac{\hbar^2}{2mr^2} l(l+1) - \frac{e^2}{r} \right) R_{nl}(r)
+    \label{eqn:radial_DGL} \\
+    - l (l+1) \Phi_{lm} &= \Laplace_{\theta, \phi} \, \Phi_{lm} (\theta, \psi) 
+    \label{eqn:winkel_DGL}
+\end{align}
 
 Dabei ist $\Laplace_{\theta, \phi}$ der Winkelanteil des Laplaceoperators $\Laplace$ in Kugelkoordinaten. Der Term mit $l (l+1)$ kommt in der Herleitung dadurch zustande, dass $- \hbar^2 \Laplace_{\theta, \phi} = \hat{L}^2$ entspricht, wobei $\hat{L}$ der Drehimpulsoperator ist. Für $\hat{L}^2$ gilt folgende Eigenwertgleichung:
 
@@ -68,7 +70,7 @@ Dabei ist $\Laplace_{\theta, \phi}$ der Winkelanteil des Laplaceoperators $\Lapl
     \label{eqn:L}
 \end{equation}
 
-Die Eigenwertgleichung \eqref{eqn:eigenwert} kann mit Hilfe der \textit{Kugelflächenfunktionen} $Y_{lm} (\theta, \phi)$ gelöst werden und diese ergeben sich zu:
+Die Eigenwertgleichung \eqref{eqn:winkel_DGL} kann mit Hilfe der \textit{Kugelflächenfunktionen} $Y_{lm} (\theta, \phi)$ gelöst werden und diese ergeben sich zu:
 
 \begin{equation}
     Y_{lm} (\theta, \phi) = \frac{1}{\sqrt{2 \pi}} N_{lm} P_{lm} (\cos \theta) e^{im\phi}
@@ -165,20 +167,54 @@ Die Darstellung der Dispersionsrelation muss jedoch auf ein reduziertes Zonensch
 
 Jedoch sind Festkörper in der Realität nicht zu $100 \%$ reine Kristalle und besitzen oft Defekte. Diese Defekte werden häufig durch Fehlstellen oder Fremdatome in der Kristallstruktur ausgelöst und müssen durch veränderte Potentialtöpfe modelliert werden
 
-\subsection{Grundlagen der Akustik}
-\label{sec:akustik}
-
-
-
 \subsection{Analogie zum Wasserstoffatom und -molekül}
 \label{sec:analogien}
 
-Im Folgenden werden die Analogien zwischen akustischen Experimenten und dem Modell des Wasserstoffatom und Wasserstoffmolekül dargestellt.
+Im Folgenden werden die Analogien zwischen akustischen Experimenten und dem Modell des Wasserstoffatom und Wasserstoffmolekül dargestellt. 
 
 \subsubsection{Wasserstoffatom}
 \label{sec:ana-H}
 
+Für einen Kugelresonator gilt im klassischen Fall die Helmholtzgleichung mit
 
+\begin{equation}
+    \frac{\partial^2 p(\vec{r}, t)}{\partial t^2} = \frac{\Laplace p(\vec{r}, t)}{\rho \kappa} ,
+    \label{eqn:helmholtz}
+\end{equation}
+
+wobei $p(\vec{r}, t)$ der Druck ist an der Stelle $\vec{r}$ zur Zeit $t$, $\rho$ und $\kappa$ sind dabei die Dichte und die Kompressibilität des Mediums bzw. der Luft. Ähnlich wie im quantenmechanischen Modell lässt sich die Zeitentwicklung von der räumlichen Entwicklung seperarieren, dafür wird folgender Ansatz verwendet:
+
+\begin{equation}
+    p(\vec{r}, t) = p(\vec{r}) \cdot \cos(\omega t)
+    \label{eqn:akus_sep}
+\end{equation}
+
+Durch Einsetzen von $\frac{1}{c^2} = \rho \kappa$, wobei $c$ die Schallgeschwindigkeit ist, ergibt sich die stationäre Druckverteilung mit dem Laplaceoperator $\Laplace$ aus Gleichung \eqref{eqn:laplace} in Kugelkoordinaten:
+
+\begin{equation}
+    - \frac{\omega^2}{c^2} p(\vec{r}) = \Laplace p(\vec{r}) = \left( \Laplace_r + \frac{1}{r^2} \Laplace_{\theta, \phi} \right) p(\vec{r})
+    \label{eqn:stationaer}
+\end{equation}
+
+Äquivalent wie in Kapitel \ref{sec:H} kann dieses Problem durch Seperation mit $p(r, \theta, \phi) = \Psi_{lm}(\theta, \phi) \cdot R(r)$ in einen Radial- und Winkelanteil seperiert werden und es entstehen 2 unabhängige Gleichungen:
+
+\begin{align}
+    -l(l+1) \Psi_{lm} (\theta, \phi) &= \Laplace_{\theta, \phi} \, \Psi_{lm} (\theta, \phi)
+    \label{eqn:akus_winkel} \\
+    \frac{\omega^2}{c^2} R(r) &= \left( - \frac{\partial^2}{\partial r^2} - \frac{2}{r} \frac{\partial}{\partial r} + \frac{l(l+1)}{r^2} \right) R(r)
+    \label{eqn:akus_raeumlich}
+\end{align}
+
+Der Vergleich zwischen der DGL \eqref{eqn:winkel_DGL} beim Wasserstoffatom und der DGL \eqref{eqn:akus_winkel} beim Kugelresonator zeigt, dass sie identisch sind. Lediglich die DGL \eqref{eqn:akus_raeumlich} für den räumlichen Anteil ist unterschiedlich zu der DGL \eqref{eqn:radial_DGL} für den räumlichen Anteil vom Wasserstoffatom. Dadurch besteht keine Analogie zum räumlichen Anteil zwischen dem klassischen Modell und dem quantenmechanischen, dafür kann der Winkelanteil im klassischen Modell als Analogie zum quantenmechanischen benutzt werden. Im Wasserstoffatom tritt sowohl eine Entartung in $l$ als auch eine $2l+1$ -fache Entartung in $m$ auf. Im klassischen Kugelresonator wird die Entartung in $l$ nicht realisiert, die Entartungvon $m$ jedoch schon. Im Wasserstoffatom könnte die Entartung durch Anlegen eines Magnetfeldes und den dadurch entstehenden \textit{Zeeman-Effekt} aufgehoben werden, im Kugelresonator geschieht dies durch Symmetriebrechung. Ein schematischer Aufbau des Hohlresonators ist in Abbildung \ref{fig:modell} zu sehen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{build/Skizze.PNG}
+    \caption{Schematischer Aufbau des Kugelresonators. \cite{Anleitung}}
+    \label{fig:modell}
+\end{figure}
+
+Ohne den Zwischenring wird durch die Stellung von Mikrofon und Lautsprecher und die Symmetrie derer nur die $m=0$ Moden angeregt. Durch Einsetzen eines Zwischenrings wie in Abbildung \ref{fig:modell} wird die Symmetrie gebrochen und es werden nun auch die $m \neq 0$ Moden angeregt. Dadurch wird die Entartung in $m$ teilweise aufgehoben. Dabei sind durch den Zwischenring nur noch die jeweiligen $+m$- und $-m$-Moden entartet. Die Kugelflächenfunktionen sind nun durch die Zwischenringe eigentlich auch keine exakte Lösungen mehr, aber sie sind immernoch näherungsweise eine Lösung des Systems. Im Allgemeinen ergeben die Messungen mit dem Mikrofon in der Analogie auch nur das Betragsquadrat $|\Psi|^2$ der Wellenfunktion und nicht die Wellenfunktion $\Psi$ an sich.
 
 \subsubsection{Wasserstoffmolekül}
 \label{sec:ana-H2}
