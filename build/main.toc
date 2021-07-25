@@ -1,0 +1,32 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Zielsetzung}{3}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Theorie}{3}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Das Wasserstoffatom}{3}{subsection.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Das Wasserstoffmolekül}{5}{subsection.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Der 1-dim Festkörper}{6}{subsection.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Analogie zum Wasserstoffatom und -molekül}{7}{subsection.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.1}Wasserstoffatom}{7}{subsubsection.2.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.2}Wasserstoffmolekül}{9}{subsubsection.2.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5}Analogie zum 1-dim Festkörpers}{9}{subsection.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Aufbau und Durchführung}{10}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Aufbau}{10}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Durchführung}{10}{subsection.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Auswertung}{10}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Diskussion}{10}{section.5}%
+\defcounter {refsection}{0}\relax 
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
