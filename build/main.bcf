@@ -2351,6 +2351,7 @@
     <bcf:citekey order="4">Anleitung</bcf:citekey>
     <bcf:citekey order="5">Anleitung</bcf:citekey>
     <bcf:citekey order="6">Anleitung</bcf:citekey>
+    <bcf:citekey order="7">qa-dresden</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

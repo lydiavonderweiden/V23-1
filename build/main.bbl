@@ -16,5 +16,22 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{qa-dresden}{manual}{}
+      \list{organization}{1}{%
+        {Technische Universität Dresden}%
+      }
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{Versuchsanleitung - Quantenanalogie (QA)}
+      \field{year}{2018}
+    \endentry
+  \enddatalist
+  \missing{Anleitung}
+\endrefsection
 \endinput
 
