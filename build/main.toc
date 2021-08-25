@@ -43,12 +43,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.3}Druckamplitude mit der $9 \,\si {\milli \metre }$ Blende}{21}{subsubsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Das Wasserstoffmolekül}{21}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}Das Wasserstoffmolekül}{23}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Festkörper in einer Dimension}{21}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.3.1}Änderung des Frequenzspektrums in Abhängigkeit des Blendendurchmessers}{23}{subsubsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{21}{section.5}%
+\contentsline {subsubsection}{\numberline {4.3.2}Winkelverteilung mit der $20 \, mm$ Blende}{24}{subsubsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{22}{section*.13}%
+\contentsline {subsection}{\numberline {4.4}Festkörper in einer Dimension}{24}{subsection.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Diskussion}{24}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{25}{section*.15}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
