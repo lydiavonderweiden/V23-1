@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.5.14)  28 AUG 2021 15:42
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.5.14)  28 AUG 2021 19:50
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1826,30 +1826,72 @@ File: Daten/Festkörper/vergleich.pdf Graphic file (type pdf)
 <use Daten/Festkörper/vergleich.pdf>
 Package luatex.def Info: Daten/Festkörper/vergleich.pdf  used on input line 177.
 (luatex.def)             Requested size: 334.60571pt x 223.0819pt.
-) (./content/diskussion.tex [26<./Daten/Festkörper/FK1_16mm_1.pdf><./Daten/Festkörper/FK1_16mm_3.pdf><./Daten/Festkörper/FK1_16mm_5.pdf><./Daten/Festkörper/FK1_16mm_9.pdf>]) [27<./Daten/Festkörper/vergleich.pdf>] [28] (./build/main.aux)
+ [26<./Daten/Festkörper/FK1_16mm_1.pdf><./Daten/Festkörper/FK1_16mm_3.pdf><./Daten/Festkörper/FK1_16mm_5.pdf><./Daten/Festkörper/FK1_16mm_9.pdf>]
+<Daten/Festkörper/FK3_16mm_37-5mm.pdf, id=1429, 433.62pt x 289.08pt>
+File: Daten/Festkörper/FK3_16mm_37-5mm.pdf Graphic file (type pdf)
+<use Daten/Festkörper/FK3_16mm_37-5mm.pdf>
+Package luatex.def Info: Daten/Festkörper/FK3_16mm_37-5mm.pdf  used on input line 186.
+(luatex.def)             Requested size: 209.12778pt x 139.41846pt.
+<Daten/Festkörper/FK3_16mm_37-5mmZOOM.pdf, id=1430, 433.62pt x 289.08pt>
+File: Daten/Festkörper/FK3_16mm_37-5mmZOOM.pdf Graphic file (type pdf)
+<use Daten/Festkörper/FK3_16mm_37-5mmZOOM.pdf>
+Package luatex.def Info: Daten/Festkörper/FK3_16mm_37-5mmZOOM.pdf  used on input line 186.
+(luatex.def)             Requested size: 209.12778pt x 139.41846pt.
+<Daten/Festkörper/FK3_16mm_62-5mm.pdf, id=1431, 433.62pt x 289.08pt>
+File: Daten/Festkörper/FK3_16mm_62-5mm.pdf Graphic file (type pdf)
+<use Daten/Festkörper/FK3_16mm_62-5mm.pdf>
+Package luatex.def Info: Daten/Festkörper/FK3_16mm_62-5mm.pdf  used on input line 188.
+(luatex.def)             Requested size: 209.12778pt x 139.41846pt.
+<Daten/Festkörper/FK3_16mm_62-5mmZOOM.pdf, id=1432, 433.62pt x 289.08pt>
+File: Daten/Festkörper/FK3_16mm_62-5mmZOOM.pdf Graphic file (type pdf)
+<use Daten/Festkörper/FK3_16mm_62-5mmZOOM.pdf>
+Package luatex.def Info: Daten/Festkörper/FK3_16mm_62-5mmZOOM.pdf  used on input line 188.
+(luatex.def)             Requested size: 209.12778pt x 139.41846pt.
+<Daten/Festkörper/FK3_16mm_75mm.pdf, id=1433, 433.62pt x 289.08pt>
+File: Daten/Festkörper/FK3_16mm_75mm.pdf Graphic file (type pdf)
+<use Daten/Festkörper/FK3_16mm_75mm.pdf>
+Package luatex.def Info: Daten/Festkörper/FK3_16mm_75mm.pdf  used on input line 190.
+(luatex.def)             Requested size: 209.12778pt x 139.41846pt.
+<Daten/Festkörper/FK3_16mm_75mmZOOM.pdf, id=1434, 433.62pt x 289.08pt>
+File: Daten/Festkörper/FK3_16mm_75mmZOOM.pdf Graphic file (type pdf)
+<use Daten/Festkörper/FK3_16mm_75mmZOOM.pdf>
+Package luatex.def Info: Daten/Festkörper/FK3_16mm_75mmZOOM.pdf  used on input line 190.
+(luatex.def)             Requested size: 209.12778pt x 139.41846pt.
+
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 184--194
+ [][] 
+ []
+
+[27<./Daten/Festkörper/vergleich.pdf>]
+<Daten/Festkörper/FK4.pdf, id=1480, 433.62pt x 289.08pt>
+File: Daten/Festkörper/FK4.pdf Graphic file (type pdf)
+<use Daten/Festkörper/FK4.pdf>
+Package luatex.def Info: Daten/Festkörper/FK4.pdf  used on input line 200.
+(luatex.def)             Requested size: 292.7776pt x 195.19556pt.
+) (./content/diskussion.tex [28<./Daten/Festkörper/FK3_16mm_37-5mm.pdf><./Daten/Festkörper/FK3_16mm_37-5mmZOOM.pdf><./Daten/Festkörper/FK3_16mm_62-5mm.pdf><./Daten/Festkörper/FK3_16mm_62-5mmZOOM.pdf><./Daten/Festkörper/FK3_16mm_75mm.pdf><./Daten/Festkörper/FK3_16mm_75mmZOOM.pdf>]) [29<./Daten/Festkörper/FK4.pdf>] [30] (./build/main.aux)
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: AB3E4154691174AD24025444CF97F695;29816.
+(rerunfilecheck)             Checksum: 340F612C6C46AACD12E21D8ADAE6D916;31005.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 7046D4ECF965AD73F2BC0D757FFB7A30;4124.
+(rerunfilecheck)             Checksum: 961FD8053300276F8AB0724BADAE4E1F;4140.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 36201 strings out of 478388
+ 36291 strings out of 478388
  100000,1977958 words of node,token memory allocated
- 926 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 dir, 2 glue, 4 kern, 1 glyph, 89 attribute, 82 glue_spec, 46 attribute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:1,2:1256,3:426,4:65,5:544,6:90,7:7775,8:95,9:756,10:28,11:969,12:1
- 54783 multiletter control sequences out of 65536+600000
- 163 fonts using 58457007 bytes
+ 932 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 dir, 2 glue, 4 kern, 1 glyph, 91 attribute, 82 glue_spec, 47 attribute_list, 1 write, 2 pdf_action nodes
+   avail lists: 1:1,2:1253,3:426,4:65,5:544,6:90,7:7775,8:95,9:756,10:28,11:969,12:1
+ 54827 multiletter control sequences out of 65536+600000
+ 163 fonts using 58457495 bytes
  113i,15n,118p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (28 pages, 952653 bytes).
+Output written on main.pdf (30 pages, 1127656 bytes).
 
-PDF statistics: 1634 PDF objects out of 1728 (max. 8388607)
- 765 compressed objects within 8 object streams
- 104 named destinations out of 1000 (max. 131072)
+PDF statistics: 2026 PDF objects out of 2073 (max. 8388607)
+ 864 compressed objects within 9 object streams
+ 108 named destinations out of 1000 (max. 131072)
  241 words of extra memory for PDF output out of 10000 (max. 100000000)
 
