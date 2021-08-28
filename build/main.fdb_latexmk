@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber build/main"] 1629995216 "build/main.bcf" "build/main.bbl" "build/main" 1630082170
-  "build/main.bcf" 1630082170 107304 f6bf35788576b13f5e81aef267a93b6e "lualatex"
+["biber build/main"] 1629995216 "build/main.bcf" "build/main.bbl" "build/main" 1630158155
+  "build/main.bcf" 1630158155 107304 f6bf35788576b13f5e81aef267a93b6e "lualatex"
   "lit.bib" 1629645917 164 5f6addb6598d3f84cda5ec190daefc7a ""
   "programme.bib" 1626875588 1042 681836d224c758e678e4f1a862d141da ""
   (generated)
   "build/main.blg"
   "build/main.bbl"
-["lualatex"] 1630082164 "main.tex" "build/main.pdf" "main" 1630082170
+["lualatex"] 1630158149 "main.tex" "build/main.pdf" "main" 1630158155
   "/home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
   "/home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf" 1255129361 118828 4d461c73423fe2666dad2ff0dfc3ca68 ""
@@ -273,20 +273,20 @@
   "H2.PNG" 1628626734 10623 d062a669a6a1ae396459b50124190c6f ""
   "Schaltung.PNG" 1628626734 110539 d9eb36571528ca7ad843a6111f861490 ""
   "Skizze.PNG" 1628626734 25568 3bde9442b90bf41704bc36cdd0d27b19 ""
-  "build/main.aux" 1630082170 26763 f5cc275331fbc3d50c05f52732584391 "lualatex"
+  "build/main.aux" 1630158155 29816 ab3e4154691174ad24025444cf97f695 "lualatex"
   "build/main.bbl" 1629995217 945 a91f225379ffaedc0a7d2d668534a367 "biber build/main"
-  "build/main.run.xml" 1630082170 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
-  "build/main.toc" 1630082170 3619 7b08993510a6eefebe29a8136f473c4f "lualatex"
-  "content/auswertung.tex" 1630082155 11151 4fefe18a32913a795f692dd54a695353 ""
+  "build/main.run.xml" 1630158155 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
+  "build/main.toc" 1630158155 4124 7046d4ecf965ad73f2bc0d757ffb7a30 "lualatex"
+  "content/auswertung.tex" 1630158135 13906 47e6230f13c08227b65af65d8927af01 ""
   "content/diskussion.tex" 1626875454 45 37201b768b3f7bd9742fc4fb0d62303f ""
   "content/durchfuehrung.tex" 1629646042 9610 1bf529c85354fb60342a7916aab2cd41 ""
   "content/theorie.tex" 1629646036 16963 54edc0a1c8085282fe3bf78c8ce4a16d ""
   "header.tex" 1626875648 3491 65f1b158afec2fd8aa39e9db217375ed ""
   "main.tex" 1626875914 590 5f1ed9834e552fa2ef2cddaae7998f08 ""
   (generated)
-  "build/main.pdf"
-  "build/main.aux"
   "build/main.run.xml"
   "build/main.toc"
-  "build/main.log"
+  "build/main.aux"
+  "build/main.pdf"
   "build/main.bcf"
+  "build/main.log"

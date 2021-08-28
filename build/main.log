@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.5.14)  27 AUG 2021 18:36
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.5.14)  28 AUG 2021 15:42
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1471,24 +1471,24 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 17.
  [2
 
 ] (./content/theorie.tex [3] [4]
-<H2.PNG, id=101, 520.19344pt x 339.51843pt>
+<H2.PNG, id=108, 520.19344pt x 339.51843pt>
 File: H2.PNG Graphic file (type png)
 <use H2.PNG>
 Package luatex.def Info: H2.PNG  used on input line 117.
 (luatex.def)             Requested size: 292.7776pt x 191.08743pt.
  [5<./H2.PNG>] [6] [7]
-<Skizze.PNG, id=140, 327.47343pt x 207.02344pt>
+<Skizze.PNG, id=147, 327.47343pt x 207.02344pt>
 File: Skizze.PNG Graphic file (type png)
 <use Skizze.PNG>
 Package luatex.def Info: Skizze.PNG  used on input line 217.
 (luatex.def)             Requested size: 334.60571pt x 211.53384pt.
  [8<./Skizze.PNG>]) (./content/durchfuehrung.tex [9]
-<Experiment.PNG, id=161, 310.91156pt x 229.60782pt>
+<Experiment.PNG, id=168, 310.91156pt x 229.60782pt>
 File: Experiment.PNG Graphic file (type png)
 <use Experiment.PNG>
 Package luatex.def Info: Experiment.PNG  used on input line 13.
 (luatex.def)             Requested size: 334.60571pt x 247.10738pt.
-<Schaltung.PNG, id=162, 453.94594pt x 313.9228pt>
+<Schaltung.PNG, id=169, 453.94594pt x 313.9228pt>
 File: Schaltung.PNG Graphic file (type png)
 <use Schaltung.PNG>
 Package luatex.def Info: Schaltung.PNG  used on input line 20.
@@ -1544,38 +1544,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
  []
 
 ) (./content/auswertung.tex
-<Daten/Zyinder/Zylinder_1.png, id=181, 803.0pt x 541.02126pt>
+<Daten/Zyinder/Zylinder_1.png, id=188, 803.0pt x 541.02126pt>
 File: Daten/Zyinder/Zylinder_1.png Graphic file (type png)
 <use Daten/Zyinder/Zylinder_1.png>
 Package luatex.def Info: Daten/Zyinder/Zylinder_1.png  used on input line 10.
 (luatex.def)             Requested size: 184.9429pt x 124.60562pt.
-<Daten/Zyinder/Zylinder_1.pdf, id=182, 433.62pt x 289.08pt>
+<Daten/Zyinder/Zylinder_1.pdf, id=189, 433.62pt x 289.08pt>
 File: Daten/Zyinder/Zylinder_1.pdf Graphic file (type pdf)
 <use Daten/Zyinder/Zylinder_1.pdf>
 Package luatex.def Info: Daten/Zyinder/Zylinder_1.pdf  used on input line 10.
 (luatex.def)             Requested size: 184.9429pt x 123.29626pt.
-<Daten/Zyinder/Zylinder_6.png, id=183, 803.0pt x 541.02126pt>
+<Daten/Zyinder/Zylinder_6.png, id=190, 803.0pt x 541.02126pt>
 File: Daten/Zyinder/Zylinder_6.png Graphic file (type png)
 <use Daten/Zyinder/Zylinder_6.png>
 Package luatex.def Info: Daten/Zyinder/Zylinder_6.png  used on input line 12.
 (luatex.def)             Requested size: 184.9429pt x 124.60562pt.
-<Daten/Zyinder/Zylinder_6.pdf, id=184, 433.62pt x 289.08pt>
+<Daten/Zyinder/Zylinder_6.pdf, id=191, 433.62pt x 289.08pt>
 File: Daten/Zyinder/Zylinder_6.pdf Graphic file (type pdf)
 <use Daten/Zyinder/Zylinder_6.pdf>
 Package luatex.def Info: Daten/Zyinder/Zylinder_6.pdf  used on input line 12.
 (luatex.def)             Requested size: 184.9429pt x 123.29626pt.
-<Daten/Zyinder/Zylinder_12.png, id=185, 803.0pt x 541.02126pt>
+<Daten/Zyinder/Zylinder_12.png, id=192, 803.0pt x 541.02126pt>
 File: Daten/Zyinder/Zylinder_12.png Graphic file (type png)
 <use Daten/Zyinder/Zylinder_12.png>
 Package luatex.def Info: Daten/Zyinder/Zylinder_12.png  used on input line 14.
 (luatex.def)             Requested size: 184.9429pt x 124.60562pt.
-<Daten/Zyinder/Zylinder_12.pdf, id=186, 433.62pt x 289.08pt>
+<Daten/Zyinder/Zylinder_12.pdf, id=193, 433.62pt x 289.08pt>
 File: Daten/Zyinder/Zylinder_12.pdf Graphic file (type pdf)
 <use Daten/Zyinder/Zylinder_12.pdf>
 Package luatex.def Info: Daten/Zyinder/Zylinder_12.pdf  used on input line 14.
 (luatex.def)             Requested size: 184.9429pt x 123.29626pt.
  [13] [14<./Daten/Zyinder/Zylinder_1.png><./Daten/Zyinder/Zylinder_1.pdf><./Daten/Zyinder/Zylinder_6.png><./Daten/Zyinder/Zylinder_6.pdf><./Daten/Zyinder/Zylinder_12.png><./Daten/Zyinder/Zylinder_12.pdf>]
-<Daten/Festkörper/FK_75mm.pdf, id=317, 433.62pt x 289.08pt>
+<Daten/Festkörper/FK_75mm.pdf, id=324, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK_75mm.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK_75mm.pdf>
 Package luatex.def Info: Daten/Festkörper/FK_75mm.pdf  used on input line 28.
@@ -1584,53 +1584,53 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 (Font)              scaled to size 5.00053pt on input line 29.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 29.
-<Daten/Wasserstoff/H_180.pdf, id=319, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/H_180.pdf, id=326, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/H_180.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/H_180.pdf>
 Package luatex.def Info: Daten/Wasserstoff/H_180.pdf  used on input line 41.
 (luatex.def)             Requested size: 376.42744pt x 250.96382pt.
-<Daten/Wasserstoff/H_180.png, id=320, 803.0pt x 541.02126pt>
+<Daten/Wasserstoff/H_180.png, id=327, 803.0pt x 541.02126pt>
 File: Daten/Wasserstoff/H_180.png Graphic file (type png)
 <use Daten/Wasserstoff/H_180.png>
 Package luatex.def Info: Daten/Wasserstoff/H_180.png  used on input line 43.
 (luatex.def)             Requested size: 376.42744pt x 253.6196pt.
  [15<./Daten/Festkörper/FK_75mm.pdf>] [16<./Daten/Wasserstoff/H_180.pdf><./Daten/Wasserstoff/H_180.png>]
-<Daten/Wasserstoff/peak0.pdf, id=423, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peak0.pdf, id=430, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peak0.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peak0.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peak0.pdf  used on input line 60.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/peakLeg0.pdf, id=424, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peakLeg0.pdf, id=431, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peakLeg0.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peakLeg0.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peakLeg0.pdf  used on input line 60.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/peak1.pdf, id=425, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peak1.pdf, id=432, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peak1.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peak1.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peak1.pdf  used on input line 62.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/peakLeg1.pdf, id=426, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peakLeg1.pdf, id=433, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peakLeg1.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peakLeg1.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peakLeg1.pdf  used on input line 62.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/peak2.pdf, id=427, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peak2.pdf, id=434, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peak2.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peak2.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peak2.pdf  used on input line 64.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/peakLeg2.pdf, id=428, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peakLeg2.pdf, id=435, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peakLeg2.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peakLeg2.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peakLeg2.pdf  used on input line 64.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/peak3.pdf, id=429, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peak3.pdf, id=436, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peak3.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peak3.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peak3.pdf  used on input line 66.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/peakLeg3.pdf, id=430, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peakLeg3.pdf, id=437, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peakLeg3.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peakLeg3.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peakLeg3.pdf  used on input line 66.
@@ -1644,27 +1644,27 @@ Overfull \hbox (24.00003pt too wide) in paragraph at lines 59--70
 Overfull \vbox (90.59366pt too high) has occurred while \output is active []
 
  [18<./Daten/Wasserstoff/peak0.pdf><./Daten/Wasserstoff/peakLeg0.pdf><./Daten/Wasserstoff/peak1.pdf><./Daten/Wasserstoff/peakLeg1.pdf><./Daten/Wasserstoff/peak2.pdf><./Daten/Wasserstoff/peakLeg2.pdf><./Daten/Wasserstoff/peak3.pdf><./Daten/Wasserstoff/peakLeg3.pdf>]
-<Daten/Wasserstoff/spalt0.pdf, id=612, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/spalt0.pdf, id=619, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/spalt0.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/spalt0.pdf>
 Package luatex.def Info: Daten/Wasserstoff/spalt0.pdf  used on input line 79.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/spalt1.pdf, id=613, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/spalt1.pdf, id=620, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/spalt1.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/spalt1.pdf>
 Package luatex.def Info: Daten/Wasserstoff/spalt1.pdf  used on input line 79.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/spalt2.pdf, id=614, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/spalt2.pdf, id=621, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/spalt2.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/spalt2.pdf>
 Package luatex.def Info: Daten/Wasserstoff/spalt2.pdf  used on input line 81.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/spalt3.pdf, id=615, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/spalt3.pdf, id=622, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/spalt3.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/spalt3.pdf>
 Package luatex.def Info: Daten/Wasserstoff/spalt3.pdf  used on input line 81.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/spaltGesamt.pdf, id=616, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/spaltGesamt.pdf, id=623, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/spaltGesamt.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/spaltGesamt.pdf>
 Package luatex.def Info: Daten/Wasserstoff/spaltGesamt.pdf  used on input line 83.
@@ -1692,7 +1692,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 89.
 
-<Daten/Wasserstoff/peak9mm.pdf, id=624, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peak9mm.pdf, id=631, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peak9mm.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peak9mm.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peak9mm.pdf  used on input line 95.
@@ -1716,27 +1716,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
-<Daten/Wasserstoffmolekuelion/H2_5mm.pdf, id=841, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/H2_5mm.pdf, id=848, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/H2_5mm.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/H2_5mm.pdf>
 Package luatex.def Info: Daten/Wasserstoffmolekuelion/H2_5mm.pdf  used on input line 110.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoffmolekuelion/H2_10mm.pdf, id=842, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/H2_10mm.pdf, id=849, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/H2_10mm.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/H2_10mm.pdf>
 Package luatex.def Info: Daten/Wasserstoffmolekuelion/H2_10mm.pdf  used on input line 110.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoffmolekuelion/H2_15mm.pdf, id=843, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/H2_15mm.pdf, id=850, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/H2_15mm.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/H2_15mm.pdf>
 Package luatex.def Info: Daten/Wasserstoffmolekuelion/H2_15mm.pdf  used on input line 112.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoffmolekuelion/H2_20mm_180.pdf, id=844, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/H2_20mm_180.pdf, id=851, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/H2_20mm_180.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/H2_20mm_180.pdf>
 Package luatex.def Info: Daten/Wasserstoffmolekuelion/H2_20mm_180.pdf  used on input line 112.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoffmolekuelion/blendAbhaeng.pdf, id=845, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/blendAbhaeng.pdf, id=852, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/blendAbhaeng.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/blendAbhaeng.pdf>
 Package luatex.def Info: Daten/Wasserstoffmolekuelion/blendAbhaeng.pdf  used on input line 114.
@@ -1746,7 +1746,7 @@ Overfull \hbox (24.00003pt too wide) in paragraph at lines 109--117
  [][] 
  []
 
-<Daten/Wasserstoffmolekuelion/resonanzBlend.pdf, id=846, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/resonanzBlend.pdf, id=853, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/resonanzBlend.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/resonanzBlend.pdf>
 Package luatex.def Info: Daten/Wasserstoffmolekuelion/resonanzBlend.pdf  used on input line 122.
@@ -1769,87 +1769,87 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 126.
 
-<Daten/Wasserstoffmolekuelion/peak0.pdf, id=1086, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/peak0.pdf, id=1095, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/peak0.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/peak0.pdf>
-Package luatex.def Info: Daten/Wasserstoffmolekuelion/peak0.pdf  used on input line 130.
+Package luatex.def Info: Daten/Wasserstoffmolekuelion/peak0.pdf  used on input line 133.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoffmolekuelion/peak1.pdf, id=1087, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/peak1.pdf, id=1096, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/peak1.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/peak1.pdf>
-Package luatex.def Info: Daten/Wasserstoffmolekuelion/peak1.pdf  used on input line 132.
+Package luatex.def Info: Daten/Wasserstoffmolekuelion/peak1.pdf  used on input line 135.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoffmolekuelion/peak2.pdf, id=1088, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/peak2.pdf, id=1097, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/peak2.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/peak2.pdf>
-Package luatex.def Info: Daten/Wasserstoffmolekuelion/peak2.pdf  used on input line 134.
+Package luatex.def Info: Daten/Wasserstoffmolekuelion/peak2.pdf  used on input line 137.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoffmolekuelion/peakLeg.pdf, id=1089, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/peakLeg.pdf, id=1098, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/peakLeg.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/peakLeg.pdf>
-Package luatex.def Info: Daten/Wasserstoffmolekuelion/peakLeg.pdf  used on input line 134.
+Package luatex.def Info: Daten/Wasserstoffmolekuelion/peakLeg.pdf  used on input line 137.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
 
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 129--137
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 132--140
  [][] 
  []
 
-[23<./Daten/Wasserstoffmolekuelion/resonanzBlend.pdf>]
-<Daten/Festkörper/FK1_16mm_1.pdf, id=1141, 433.62pt x 289.08pt>
+[23<./Daten/Wasserstoffmolekuelion/resonanzBlend.pdf>] [24<./Daten/Wasserstoffmolekuelion/peak0.pdf><./Daten/Wasserstoffmolekuelion/peak1.pdf><./Daten/Wasserstoffmolekuelion/peak2.pdf><./Daten/Wasserstoffmolekuelion/peakLeg.pdf>]
+<Daten/Festkörper/FK1_16mm_1.pdf, id=1251, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK1_16mm_1.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK1_16mm_1.pdf>
-Package luatex.def Info: Daten/Festkörper/FK1_16mm_1.pdf  used on input line 145.
+Package luatex.def Info: Daten/Festkörper/FK1_16mm_1.pdf  used on input line 159.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Festkörper/FK1_16mm_3.pdf, id=1142, 433.62pt x 289.08pt>
+<Daten/Festkörper/FK1_16mm_3.pdf, id=1252, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK1_16mm_3.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK1_16mm_3.pdf>
-Package luatex.def Info: Daten/Festkörper/FK1_16mm_3.pdf  used on input line 145.
+Package luatex.def Info: Daten/Festkörper/FK1_16mm_3.pdf  used on input line 159.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Festkörper/FK1_16mm_5.pdf, id=1143, 433.62pt x 289.08pt>
+<Daten/Festkörper/FK1_16mm_5.pdf, id=1253, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK1_16mm_5.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK1_16mm_5.pdf>
-Package luatex.def Info: Daten/Festkörper/FK1_16mm_5.pdf  used on input line 147.
+Package luatex.def Info: Daten/Festkörper/FK1_16mm_5.pdf  used on input line 161.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Festkörper/FK1_16mm_9.pdf, id=1144, 433.62pt x 289.08pt>
+<Daten/Festkörper/FK1_16mm_9.pdf, id=1254, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK1_16mm_9.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK1_16mm_9.pdf>
-Package luatex.def Info: Daten/Festkörper/FK1_16mm_9.pdf  used on input line 147.
+Package luatex.def Info: Daten/Festkörper/FK1_16mm_9.pdf  used on input line 161.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
 
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 144--151
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 158--165
  [][] 
  []
 
-[24<./Daten/Wasserstoffmolekuelion/peak0.pdf><./Daten/Wasserstoffmolekuelion/peak1.pdf><./Daten/Wasserstoffmolekuelion/peak2.pdf><./Daten/Wasserstoffmolekuelion/peakLeg.pdf>]
-<Daten/Festkörper/vergleich.pdf, id=1242, 433.62pt x 289.08pt>
+[25]
+<Daten/Festkörper/vergleich.pdf, id=1262, 433.62pt x 289.08pt>
 File: Daten/Festkörper/vergleich.pdf Graphic file (type pdf)
 <use Daten/Festkörper/vergleich.pdf>
-Package luatex.def Info: Daten/Festkörper/vergleich.pdf  used on input line 157.
+Package luatex.def Info: Daten/Festkörper/vergleich.pdf  used on input line 177.
 (luatex.def)             Requested size: 334.60571pt x 223.0819pt.
-) (./content/diskussion.tex [25<./Daten/Festkörper/FK1_16mm_1.pdf><./Daten/Festkörper/FK1_16mm_3.pdf><./Daten/Festkörper/FK1_16mm_5.pdf><./Daten/Festkörper/FK1_16mm_9.pdf>]) [26<./Daten/Festkörper/vergleich.pdf>] [27] (./build/main.aux)
+) (./content/diskussion.tex [26<./Daten/Festkörper/FK1_16mm_1.pdf><./Daten/Festkörper/FK1_16mm_3.pdf><./Daten/Festkörper/FK1_16mm_5.pdf><./Daten/Festkörper/FK1_16mm_9.pdf>]) [27<./Daten/Festkörper/vergleich.pdf>] [28] (./build/main.aux)
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: F5CC275331FBC3D50C05F52732584391;26763.
+(rerunfilecheck)             Checksum: AB3E4154691174AD24025444CF97F695;29816.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 7B08993510A6EEFEBE29A8136F473C4F;3619.
+(rerunfilecheck)             Checksum: 7046D4ECF965AD73F2BC0D757FFB7A30;4124.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 36193 strings out of 478388
+ 36201 strings out of 478388
  100000,1977958 words of node,token memory allocated
- 909 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 4 dir, 2 glue, 4 kern, 1 glyph, 87 attribute, 82 glue_spec, 45 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:1,2:1127,3:384,4:65,5:545,6:82,7:7775,8:95,9:756,10:28,11:969,12:1
- 54779 multiletter control sequences out of 65536+600000
- 163 fonts using 58456763 bytes
+ 926 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 dir, 2 glue, 4 kern, 1 glyph, 89 attribute, 82 glue_spec, 46 attribute_list, 1 write, 2 pdf_action nodes
+   avail lists: 1:1,2:1256,3:426,4:65,5:544,6:90,7:7775,8:95,9:756,10:28,11:969,12:1
+ 54783 multiletter control sequences out of 65536+600000
+ 163 fonts using 58457007 bytes
  113i,15n,118p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (27 pages, 946619 bytes).
+Output written on main.pdf (28 pages, 952653 bytes).
 
-PDF statistics: 1605 PDF objects out of 1728 (max. 8388607)
- 737 compressed objects within 8 object streams
- 100 named destinations out of 1000 (max. 131072)
- 217 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1634 PDF objects out of 1728 (max. 8388607)
+ 765 compressed objects within 8 object streams
+ 104 named destinations out of 1000 (max. 131072)
+ 241 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -124,7 +124,9 @@ aufgenommen. Das Frequenzspektrum dieses gekoppelten Resonators wurde für die B
   \label{fig:h2Res}
 \end{figure}
 \subsubsection{Winkelverteilung mit der $20 \, mm$ Blende}
-Die Winkelverteilung der drei Peaks aus Abschnitt \ref{sec:h2peaks} wurden in $10°$ Schritten aufgenommen und in der Abbildung \ref{fig:h2_2} wiedergegeben.  
+Die Winkelverteilung der drei Peaks aus Abschnitt \ref{sec:h2peaks} wurden in $10°$ Schritten aufgenommen und in der Abbildung \ref{fig:h2_2} wiedergegeben. \\
+Die Verteilungen der ersten beiden Peaks weisen keine erkennbare Struktur auf und können aus diesem Grund nicht identifiziert werden.  Die Verteilung des dritten Peak jedoch 
+deckt exakt die Form der Legendrepolynomen $P_0(\cos(\phi))$. Damit liegt nahe, dass der dritte Peak den anti-bindenden Zustand mit $m=1$ zeigt.  
 \begin{figure}[H]
   \centering
   \begin{tabular}{cc}
@@ -138,7 +140,18 @@ Die Winkelverteilung der drei Peaks aus Abschnitt \ref{sec:h2peaks} wurden in $1
   \caption{Winkelverteilung des gekoppelten Resonators bei einem Blendendurchmesser von $20\, mm$ mit passenden Legendrepolynomen.} 
   \label{fig:h2_2}
 \end{figure}
-\subsection{Festkörper in einer Dimension}
+\subsection{Zylinderketten als Modell für Festkörper}
+\subsubsection{Der Übergung von einem Molekül zum Festkörper}
+In diesem Abschnitt wurden die Frequenzspektren von Zylinderketten mit einer wachsenden Anzahl an Zylindern gemessen. Die Ergebnisse für Ketten mit $2$,$4$,$6$ und $10$ Zylindern und einem Blendendurchmesser von $16\, mm$ sind in der 
+Abbildung \ref{fig:fk1} angegeben.\\
+In der Festkörperphysik beschreiben Bänder die dicht beieinander liegende Resonanzfrequenzen der Elektronen in einem Festkörper. Diese entsprechen den Schwingungen welche sich nur wenig von den Eigenschwingungen der anderen Elektronen unterscheiden. 
+In dem betrachteten Modell werden diese Schwinungen durch Schallwellen dargestellt. In der Abbildung \ref{fig:fk1} sind deutlich Bänder zu erkennen, welche auch unabhängig von der Anzahl der Zylinder sind. 
+Die Bänder selbst werden durch verschiedene stehende Schallwellen im Zylinder erzeugt. Die stehende Welle kann beschrieben werden durch 
+\begin{align*}
+  \Psi(x) = A\cdot \sin(k_x x),  & \:\:k_x = \frac{2 \pi n_x}{L}
+\end{align*}
+wobei $A$ die Amplitude angibt und $n_x \in \mathbb{N}$ ist. Das $L$ gibt die Länge der Zylinder an. \\
+Die Abbildung \ref{fig:fk1} zeigt, dass die Amplitude der Resonanzfrequenzen mit steigender Frequenz abnimmt. Dies kann damit erklärt werden, dass höhere Frequenzen höhere Energien benötigen. Damit sinkt die Amplitude aufgrund der Energieerhaltung. 
 
 \begin{figure}[H]
   \centering
@@ -152,6 +165,12 @@ Die Winkelverteilung der drei Peaks aus Abschnitt \ref{sec:h2peaks} wurden in $1
   \caption{Die Frequenzspektren der Zylinderketten verschiedener Länge bei einem Irisdurchmesser von $16\, \si{\milli\metre}$} 
   \label{fig:fk1}
 \end{figure}
+\subsubsection{Blenden verschiedener Durchmesser zwischen den Zylindern in der Resonatorkette}
+
+Das Frequenzspektrum der Resonatorkette mit $2$,$4$ und $10$ Zylindern wurden erneut aufgenommen wobei dieses Mal der Durchmesser der Blenden variiert wurde. 
+Die der Vergleich der Frequenzspektren mit verschiedene Blendendurchmesser ist für die Kette aus 10 Zylindern in der Abbildung \ref{fig:fkvergleich} gezeigt. \\
+Es ist zunächst zu bemerken, dass die Abstände der Peaks für größere Durchmesser vergrößern. Dies liegt an der veränderten Kopplung zwischen den einzelnen Resonatoren. 
+Des Weiteren haben die Peaks der ersten Ordnungen für Blenden mit größerem Durchmesser eine höhere Amplitude. Die somit werden die Peaks erster Ordnungen durch kleinere Blendendurchmesser unterdrückt. 
 
 \begin{figure}
   \centering
@@ -159,3 +178,4 @@ Die Winkelverteilung der drei Peaks aus Abschnitt \ref{sec:h2peaks} wurden in $1
   \caption{Vergleich zwischen den Frequenzspektren der Zylinderketten mit verschiedenen Irisdurchmesser.}
   \label{fig:fkvergleich}
 \end{figure}
+\subsubsection{Modifikation der Resonatorkette}
