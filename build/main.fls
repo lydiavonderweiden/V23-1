@@ -618,6 +618,9 @@ INPUT ./Daten/Festkörper/FK1_16mm_5.pdf
 INPUT ./Daten/Festkörper/FK1_16mm_9.pdf
 INPUT ./Daten/Festkörper/FK1_16mm_9.pdf
 INPUT ./Daten/Festkörper/FK1_16mm_9.pdf
+INPUT ./Daten/Festkörper/vergleich.pdf
+INPUT ./Daten/Festkörper/vergleich.pdf
+INPUT ./Daten/Festkörper/vergleich.pdf
 INPUT ./content/diskussion.tex
 INPUT ./content/diskussion.tex
 INPUT build/main.aux

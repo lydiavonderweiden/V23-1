@@ -51,8 +51,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4}Festkörper in einer Dimension}{25}{subsection.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskussion}{25}{section.5}%
+\contentsline {section}{\numberline {5}Diskussion}{26}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{26}{section*.17}%
+\contentsline {section}{\nonumberline Literatur}{27}{section*.18}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
