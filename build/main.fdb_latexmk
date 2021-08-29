@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber build/main"] 1629995216 "build/main.bcf" "build/main.bbl" "build/main" 1630173030
-  "build/main.bcf" 1630173030 107304 f6bf35788576b13f5e81aef267a93b6e "lualatex"
+["biber build/main"] 1629995216 "build/main.bcf" "build/main.bbl" "build/main" 1630197266
+  "build/main.bcf" 1630197265 107304 f6bf35788576b13f5e81aef267a93b6e "lualatex"
   "lit.bib" 1629645917 164 5f6addb6598d3f84cda5ec190daefc7a ""
   "programme.bib" 1626875588 1042 681836d224c758e678e4f1a862d141da ""
   (generated)
-  "build/main.blg"
   "build/main.bbl"
-["lualatex"] 1630173024 "main.tex" "build/main.pdf" "main" 1630173030
+  "build/main.blg"
+["lualatex"] 1630197259 "main.tex" "build/main.pdf" "main" 1630197266
   "/home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
   "/home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf" 1255129361 118828 4d461c73423fe2666dad2ff0dfc3ca68 ""
@@ -242,6 +242,7 @@
   "Daten/Festkörper/FK3_16mm_75mm.pdf" 1630170825 30163 a42c8036b8e9f9e6df148bcb0499bdb2 ""
   "Daten/Festkörper/FK3_16mm_75mmZOOM.pdf" 1630171305 25720 d7eda4356c3c4bc427b951bd6a4f1487 ""
   "Daten/Festkörper/FK4.pdf" 1630172874 40536 9e8df5fe83ff4b0b643cd4dc413aed8b ""
+  "Daten/Festkörper/FK5.pdf" 1630194509 29018 625064f46dab6243cf4c904ad0fc9060 ""
   "Daten/Festkörper/FK_75mm.pdf" 1630063731 19710 9a454807e7c2370b69a6f8b74b7e64e3 ""
   "Daten/Festkörper/vergleich.pdf" 1630081956 32019 c5770a9ce1f9cd223f865c0c3dbf2122 ""
   "Daten/Wasserstoff/H_180.pdf" 1630063713 20030 b48c3085ffd64afd216a4edf967d0cdc ""
@@ -280,20 +281,20 @@
   "H2.PNG" 1628626734 10623 d062a669a6a1ae396459b50124190c6f ""
   "Schaltung.PNG" 1628626734 110539 d9eb36571528ca7ad843a6111f861490 ""
   "Skizze.PNG" 1628626734 25568 3bde9442b90bf41704bc36cdd0d27b19 ""
-  "build/main.aux" 1630173030 31005 340f612c6c46aacd12e21d8adae6d916 "lualatex"
+  "build/main.aux" 1630197265 31570 69284067a4bc3549cdd0d9be5a1017d2 "lualatex"
   "build/main.bbl" 1629995217 945 a91f225379ffaedc0a7d2d668534a367 "biber build/main"
-  "build/main.run.xml" 1630173030 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
-  "build/main.toc" 1630173030 4140 961fd8053300276f8ab0724badae4e1f "lualatex"
-  "content/auswertung.tex" 1630173022 15195 de51cd9aa298013fe03fa568fcce2a4a ""
+  "build/main.run.xml" 1630197265 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
+  "build/main.toc" 1630197265 4140 5a07f7ac5fcb4333aae63118f5bb8acc "lualatex"
+  "content/auswertung.tex" 1630197227 18296 95c23a0b49d12ee2de67b6a8f2778f1d ""
   "content/diskussion.tex" 1626875454 45 37201b768b3f7bd9742fc4fb0d62303f ""
   "content/durchfuehrung.tex" 1629646042 9610 1bf529c85354fb60342a7916aab2cd41 ""
   "content/theorie.tex" 1629646036 16963 54edc0a1c8085282fe3bf78c8ce4a16d ""
   "header.tex" 1626875648 3491 65f1b158afec2fd8aa39e9db217375ed ""
   "main.tex" 1626875914 590 5f1ed9834e552fa2ef2cddaae7998f08 ""
   (generated)
-  "build/main.bcf"
+  "build/main.pdf"
   "build/main.run.xml"
   "build/main.toc"
+  "build/main.bcf"
   "build/main.aux"
-  "build/main.pdf"
   "build/main.log"

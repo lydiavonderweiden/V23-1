@@ -642,6 +642,9 @@ INPUT ./Daten/Festkörper/FK3_16mm_75mmZOOM.pdf
 INPUT ./Daten/Festkörper/FK4.pdf
 INPUT ./Daten/Festkörper/FK4.pdf
 INPUT ./Daten/Festkörper/FK4.pdf
+INPUT ./Daten/Festkörper/FK5.pdf
+INPUT ./Daten/Festkörper/FK5.pdf
+INPUT ./Daten/Festkörper/FK5.pdf
 INPUT ./content/diskussion.tex
 INPUT ./content/diskussion.tex
 INPUT build/main.aux

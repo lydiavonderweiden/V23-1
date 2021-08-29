@@ -179,6 +179,12 @@ Des Weiteren haben die Peaks der ersten Ordnungen für Blenden mit größerem Du
   \label{fig:fkvergleich}
 \end{figure}
 \subsubsection{Modifikation der Resonatorkette}
+
+In vorher betrachteten Ketten hatten alle Zylinder die selbe Länge. 
+Dieser Abschnitt wird untersucht, welchen Einfluss Variationen in der Kette haben. \\
+Zunächst wurden die Frequenzspektren der Resonatorketten mit drei verschiedenen Defekten, also Zylinder mit unterschiedlicher Länge in der Kette, aufgenommen und in der Abbildung \ref{fig:fkMod} mit dem Spektrum der Kette ohne ein Defekt verglichen. \\
+Es ist zunächst zu erkennen, dass sich die Bänder durch das Einfügen eines Defektes verschoben haben. Die Resonanzen liegen somit innerhalb der Bandlücken des Spektrums ohne ein Defekt. In der dritten Abbildung \ref{fig:fkMod}c) ist ebenfalls noch zu erkennen, dass sich neue Resonanzen in den Lücken bilden und so das Band füllen. 
+
 \begin{figure}[H]
   \centering
   \begin{tabular}{cc}
@@ -194,10 +200,25 @@ Des Weiteren haben die Peaks der ersten Ordnungen für Blenden mit größerem Du
   \caption{Auswirkungen eines Defekts in der Resonatorkette auf das Frequenzspektrum. Die rechten Plots zeigen den Zoom auf das zweite Band.} 
   \label{fig:fkMod}
 \end{figure}
+Für die folgende Analyse wurde die Kette so aufgebaut, dass sie alternierend Zylinder der Länge $50\,\si{\milli\metre}$ bzw. $75\,\si{\milli\metre}$ besitzt. Das Frequenzspektrum dieser alternierenden Kette wurde in Abbildung 
+\ref{fig:fkMod2} mit dem Spektrum eines einzelnen $50\,\si{\milli\metre}$ bzw. $75\,\si{\milli\metre}$ Zylinders verglichen. \\
+Das Frequenzspektrum der alternierenden Kette zeigt große Unterschiede im Vergleich mit den zuvor betrachteten Spektren. Die Resonanzen sind erneut verschoben jedoch fallen die Bänder zusätzlich kaum mit den Resonanzen der einzelnen Zylinder zusammen. 
+Stattdessen sind die Bänder der alternierenden Kette innerhalb der Bandlücken der einzelnen Zylinder zu finden. Dies ist damit zu erklären, dass die Aneinanderreihung der Zylinder zu destruktiver Interferenz an den Resonanzen führt. Es kann nur zu Resonanzen in der alternierenden Kette kommen, wenn nicht beide Zylindertypen die Resonanzen des jeweils anderen Typen stark unterdrücken. 
+Dies ist der Fall bei dem Band um die Frequenz $7000 \, \si{\hertz}$. Hier liegen überlappen sich die Resonaznen der einzelnen Zylinder, es kommt zu keiner destruktiven Interferrenz und somit kann sich an dieser Stelle ein Band im Gesamtsystem bilden. \\ 
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.7\textwidth]{Daten/Festkörper/FK4.pdf} 
   \caption{Vergleich zwischen dem Frequenzspektrum der Resonatorkette mit abwechselnder Zylinderlänge und dem Spektrum der einzelnen Zylinder.} 
   \label{fig:fkMod2}
+\end{figure}
+Abschließend wird nun das Frequenzspektrum einer Kette aus acht $50\,\si{\milli\metre}$ Zylinder mit alternierenden Blendendurchmesser ($16\, mm$ und $13\, mm$) gemessen. Die Ergebnisse sind in den Abbildungen \ref{fig:fkMod3} wiedergegeben. Zum Vergleich wurde ebenfalls das Spektrum der selben Kette mit ausschließlich $16\, mm$ Blenden dargestellt. \\
+Hier verschieben sich die Bänder nicht. Trotzdem unterscheidet sich die Struktur wesentlich von der Struktur des Referenzspektrums. Insbesondere haben sich kleine Bandlücken innerhalb der Bänder aufgespalten. Die deutlich erkennbaren Bandlücken sind in der Abbildung orange markiert. 
+Die variierenden Blenden beeinflussen somit die Dispersionsrelation und die allgemeine Bandstruktur des simulierten Festkörpers. 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Daten/Festkörper/FK5.pdf} 
+  \caption{Vergleich zwischen dem Frequenzspektrum der Resonatorkette mit abwechselnden Blendendurchmesser und dem Spektrum der Kette mit ausschließlich $16\, mm$ Blenden.} 
+  \label{fig:fkMod3}
 \end{figure}
