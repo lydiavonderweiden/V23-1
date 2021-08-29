@@ -61,7 +61,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1}Wasserstoffatom}{30}{subsection.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Modellierung des Wasserstoffmolekülions}{30}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.2}Winkelverteilung des Wasserstoffmoleküls}{30}{subsection.5.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3}Festkörper Modellierung}{30}{subsection.5.3}%
 \defcounter {refsection}{0}\relax 

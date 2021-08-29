@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1630198018 "/mnt/c/Users/Ballasch/Documents/_uni/Praktikum/V23/main.tex" "main.pdf" "main" 1630198018
+["pdflatex"] 1630206745 "/mnt/c/Users/Ballasch/Documents/_uni/Praktikum/V23/main.tex" "main.pdf" "main" 1630206745
   "/home/cihad/.local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/home/cihad/.local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/home/cihad/.local/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
@@ -49,7 +49,7 @@
   "/home/cihad/.local/texlive/2021/texmf.cnf" 1621003647 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "/mnt/c/Users/Ballasch/Documents/_uni/Praktikum/V23/main.tex" 1630197981 675 7b71d8f57b755c38ebe5a467a43d7f3f ""
   "header.tex" 1626875648 3491 65f1b158afec2fd8aa39e9db217375ed ""
-  "main.aux" 1630198018 32 3985256e7290058c681f74d7a3565a19 ""
+  "main.aux" 1630206745 32 3985256e7290058c681f74d7a3565a19 ""
   "main.tex" 1630197981 675 7b71d8f57b755c38ebe5a467a43d7f3f ""
   (generated)
   "main.log"
