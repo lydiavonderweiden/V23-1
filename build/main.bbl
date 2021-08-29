@@ -19,6 +19,260 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{matplotlib}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a2f53dcc6bb05a06b8ad94176f80fe26}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{fullhash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{bibnamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authorbibnamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authornamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authorfullhash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computing in Science \& Engineering}
+      \field{number}{3}
+      \field{title}{{Matplotlib}: A {2D} Graphics Environment}
+      \field{version}{1.4.3}
+      \field{volume}{9}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{90\bibrangedash 95}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb http://matplotlib.org/
+      \endverb
+      \verb{url}
+      \verb http://matplotlib.org/
+      \endverb
+    \endentry
+    \entry{sympy}{article}{}
+      \name{author}{27}{}{%
+        {{hash=5e958cc50dedd74faa965b4a8fd17b92}{%
+           family={Meurer},
+           familyi={M\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=39c526e48858cdc66717218e805c91cb}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Christopher\bibnamedelima P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=26ddf2ae1edd89343228612929f07a23}{%
+           family={Paprocki},
+           familyi={P\bibinitperiod},
+           given={Mateusz},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d13105423bd48aa1a4b59065c0d12162}{%
+           family={Čertík},
+           familyi={Č\bibinitperiod},
+           given={Ondřej},
+           giveni={O\bibinitperiod}}}%
+        {{hash=d26f9c2f0e145932c18393c95adecb4b}{%
+           family={Kirpichev},
+           familyi={K\bibinitperiod},
+           given={Sergey\bibnamedelima B.},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=a0c55cd891828ec1d8975f972d9d3139}{%
+           family={Rocklin},
+           familyi={R\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=33567c90fa46670655481679ef8e0fa6}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={AMiT},
+           giveni={A\bibinitperiod}}}%
+        {{hash=09b257957202d410720d9756d817b5fc}{%
+           family={Ivanov},
+           familyi={I\bibinitperiod},
+           given={Sergiu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b4d8be6cc41fee890e6c8e15d626e555}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Jason\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=4276b72cf6629f07410e50ccf7984638}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Sartaj},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4591167f0989aa5d5ad96b62540ae835}{%
+           family={Rathnayake},
+           familyi={R\bibinitperiod},
+           given={Thilina},
+           giveni={T\bibinitperiod}}}%
+        {{hash=61ff8995bea2b88917a08764ec7a2304}{%
+           family={Vig},
+           familyi={V\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f274556cc2254c7daba814330ce66f81}{%
+           family={Granger},
+           familyi={G\bibinitperiod},
+           given={Brian\bibnamedelima E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=4dbe88936e3dfcad5d847605dc1ea8df}{%
+           family={Muller},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=fbb61808410cddba9790c4825079a664}{%
+           family={Bonazzi},
+           familyi={B\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=bddd816c13c03756f9b2318048552509}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Harsh},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b49dc889465d3db681b9c7492a2c75a8}{%
+           family={Vats},
+           familyi={V\bibinitperiod},
+           given={Shivam},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1cd2f71317215f5336dbc31416e0bbd7}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={Fredrik},
+           giveni={F\bibinitperiod}}}%
+        {{hash=bab4e5caee2d67831e464ce575022b37}{%
+           family={Pedregosa},
+           familyi={P\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=214bd85455aba54f6fa4f8af9a2a822f}{%
+           family={Curry},
+           familyi={C\bibinitperiod},
+           given={Matthew\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d29b944b48184ac2dc21111359338295}{%
+           family={Terrel},
+           familyi={T\bibinitperiod},
+           given={Andy\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f676c8f7a5f615e3c65e0ae5cb47eb70}{%
+           family={Roučka},
+           familyi={R\bibinitperiod},
+           given={Štěpán},
+           giveni={Š\bibinitperiod}}}%
+        {{hash=44381b1d286e8d49eed9f86800341540}{%
+           family={Saboo},
+           familyi={S\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=16fe082be029309f42b963c7305cf7db}{%
+           family={Fernando},
+           familyi={F\bibinitperiod},
+           given={Isuru},
+           giveni={I\bibinitperiod}}}%
+        {{hash=23835890ea7a969db8076353334bec0d}{%
+           family={Kulal},
+           familyi={K\bibinitperiod},
+           given={Sumith},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5bca159e697db439e23b8947dfa4b614}{%
+           family={Cimrman},
+           familyi={C\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=89373eb06418d6530c31b0fb655f5b04}{%
+           family={Scopatz},
+           familyi={S\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b98d798f6abce49b004b950c7399ba8}
+      \strng{fullhash}{2a602db304fd42d76bb568d6874579c3}
+      \strng{bibnamehash}{3b98d798f6abce49b004b950c7399ba8}
+      \strng{authorbibnamehash}{3b98d798f6abce49b004b950c7399ba8}
+      \strng{authornamehash}{3b98d798f6abce49b004b950c7399ba8}
+      \strng{authorfullhash}{2a602db304fd42d76bb568d6874579c3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{SymPy is an open source computer algebra system written in pure Python. It is built with a focus on extensibility and ease of use, through both interactive and programmatic applications. These characteristics have led SymPy to become a popular symbolic library for the scientific Python ecosystem. This paper presents the architecture of SymPy, a description of its features, and a discussion of select submodules. The supplementary material provide additional examples and further outline details of the architecture and features of SymPy.}
+      \field{issn}{2376-5992}
+      \field{journaltitle}{PeerJ Computer Science}
+      \field{month}{1}
+      \field{title}{SymPy: symbolic computing in Python}
+      \field{volume}{3}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{e103}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.7717/peerj-cs.103
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.7717/peerj-cs.103
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.7717/peerj-cs.103
+      \endverb
+      \keyw{Python,Computer algebra system,Symbolics}
+    \endentry
+    \entry{numpy}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d500f4849030f34359cdb3e1513acf83}{%
+           family={Oliphant},
+           familyi={O\bibinitperiod},
+           given={Travis\bibnamedelima E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d500f4849030f34359cdb3e1513acf83}
+      \strng{fullhash}{d500f4849030f34359cdb3e1513acf83}
+      \strng{bibnamehash}{d500f4849030f34359cdb3e1513acf83}
+      \strng{authorbibnamehash}{d500f4849030f34359cdb3e1513acf83}
+      \strng{authornamehash}{d500f4849030f34359cdb3e1513acf83}
+      \strng{authorfullhash}{d500f4849030f34359cdb3e1513acf83}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computing in Science \& Engineering}
+      \field{number}{3}
+      \field{title}{{NumPy}: {Python} for Scientific Computing}
+      \field{version}{1.9.2}
+      \field{volume}{9}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{10\bibrangedash 20}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb http://www.numpy.org/
+      \endverb
+      \verb{url}
+      \verb http://www.numpy.org/
+      \endverb
+    \endentry
+    \entry{anleitung}{manual}{}
+      \list{organization}{1}{%
+        {Technische Universität Dortmund}%
+      }
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labeltitlesource}{title}
+      \field{title}{V23 Quanten Analogien}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
     \entry{qa-dresden}{manual}{}
       \list{organization}{1}{%
         {Technische Universität Dresden}%
@@ -29,6 +283,45 @@
       \field{month}{11}
       \field{title}{Versuchsanleitung - Quantenanalogie (QA)}
       \field{year}{2018}
+    \endentry
+    \entry{seaborn}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0c809239417dcb9aef9b906eff53933d}{%
+           family={Waskom},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Open Journal}%
+      }
+      \strng{namehash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{fullhash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{bibnamehash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{authorbibnamehash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{authornamehash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{authorfullhash}{0c809239417dcb9aef9b906eff53933d}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Source Software}
+      \field{number}{60}
+      \field{title}{seaborn: statistical data visualization}
+      \field{volume}{6}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{3021}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.21105/joss.03021
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.21105/joss.03021
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.21105/joss.03021
+      \endverb
     \endentry
   \enddatalist
   \missing{Anleitung}
