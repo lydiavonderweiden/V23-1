@@ -262,7 +262,7 @@
       \verb http://www.numpy.org/
       \endverb
     \endentry
-    \entry{anleitung}{manual}{}
+    \entry{Anleitung}{manual}{}
       \list{organization}{1}{%
         {Technische Universität Dortmund}%
       }
@@ -271,7 +271,6 @@
       \field{labeltitlesource}{title}
       \field{title}{V23 Quanten Analogien}
       \field{year}{2021}
-      \true{nocite}
     \endentry
     \entry{qa-dresden}{manual}{}
       \list{organization}{1}{%
@@ -324,7 +323,7 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Anleitung}
+  \missing{anleitung}
 \endrefsection
 \endinput
 

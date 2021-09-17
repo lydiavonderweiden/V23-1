@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.14)  30 AUG 2021 02:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.14)  17 SEP 2021 18:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -289,6 +289,13 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip66
+\L@UnitsRaiseTextstyle=\skip67
+\L@UnitsRaiseScriptstyle=\skip68
+ (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/braket/braket.sty) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
@@ -297,12 +304,12 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count269
 \calc@Adimen=\dimen148
 \calc@Bdimen=\dimen149
-\calc@Askip=\skip66
-\calc@Bskip=\skip67
+\calc@Askip=\skip69
+\calc@Bskip=\skip70
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count270
-\calc@Cskip=\skip68
+\calc@Cskip=\skip71
 ) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
@@ -312,7 +319,7 @@ LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \g_MT_multlinerow_int=\count271
 \l_MT_multwidth_dim=\dimen150
-\origjot=\skip69
+\origjot=\skip72
 \l_MT_shortvdotswithinadjustabove_dim=\dimen151
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen152
 \l_MT_above_intertext_sep=\dimen153
@@ -356,10 +363,10 @@ l.45 \msg_fatal:nn {fontspec} {cannot-use-pdftex}
 
  
 Here is how much of TeX's memory you used:
- 6121 strings out of 478846
- 119900 string characters out of 5851750
- 522230 words of memory out of 5000000
- 23710 multiletter control sequences out of 15000+600000
+ 6195 strings out of 478846
+ 121039 string characters out of 5851750
+ 523489 words of memory out of 5000000
+ 23777 multiletter control sequences out of 15000+600000
  403730 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,1n,113p,10669b,270s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.5.14)  30 AUG 2021 02:01
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.5.14)  17 SEP 2021 18:30
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -314,6 +314,13 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip66
+\L@UnitsRaiseTextstyle=\skip67
+\L@UnitsRaiseScriptstyle=\skip68
+ (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/braket/braket.sty) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
@@ -322,12 +329,12 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count199
 \calc@Adimen=\dimen148
 \calc@Bdimen=\dimen149
-\calc@Askip=\skip66
-\calc@Bskip=\skip67
+\calc@Askip=\skip69
+\calc@Bskip=\skip70
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count266
-\calc@Cskip=\skip68
+\calc@Cskip=\skip71
 ) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
@@ -337,7 +344,7 @@ LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \g_MT_multlinerow_int=\count267
 \l_MT_multwidth_dim=\dimen150
-\origjot=\skip69
+\origjot=\skip72
 \l_MT_shortvdotswithinadjustabove_dim=\dimen151
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen152
 \l_MT_above_intertext_sep=\dimen153
@@ -383,7 +390,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 32.
+(typearea)              on input line 34.
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2021/04/26 3.58 The Babel package
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
@@ -569,13 +576,13 @@ Package fontspec Info: Font family 'LatinModernMath(1)' created for font
 (fontspec)             \__um_luatex_copy_fontdimens: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 54.
+(Font)              `operators' in the math version `normal' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/LatinModernMath(1)/m/n on input line 54.
+(Font)                  OT1/cmr/m/n --> TU/LatinModernMath(1)/m/n on input line 56.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 54.
+(Font)              `operators' in the math version `bold' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/LatinModernMath(1)/b/n on input line 54.
+(Font)                  OT1/cmr/bx/n --> TU/LatinModernMath(1)/b/n on input line 56.
 
 Package fontspec Info: LatinModernMath scale = 1.0001.
 
@@ -631,13 +638,13 @@ Package fontspec Info: Font family 'LatinModernMath(2)' created for font
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 54.
+(Font)              `symbols' in the math version `normal' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> TU/LatinModernMath(2)/m/n on input line 54.
+(Font)                  OMS/cmsy/m/n --> TU/LatinModernMath(2)/m/n on input line 56.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 54.
+(Font)              `symbols' in the math version `bold' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> TU/LatinModernMath(2)/b/n on input line 54.
+(Font)                  OMS/cmsy/b/n --> TU/LatinModernMath(2)/b/n on input line 56.
 
 Package fontspec Info: LatinModernMath scale = 0.9999.
 
@@ -681,30 +688,30 @@ Package fontspec Info: Font family 'LatinModernMath(3)' created for font
 (fontspec)             \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 54.
+(Font)              `largesymbols' in the math version `normal' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/m/n on input line 54.
+(Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/m/n on input line 56.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 54.
+(Font)              `largesymbols' in the math version `bold' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/b/n on input line 54.
+(Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/b/n on input line 56.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 54.
+(Font)              scaled to size 10.95116pt on input line 56.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.6658pt on input line 54.
+(Font)              scaled to size 7.6658pt on input line 56.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.47559pt on input line 54.
+(Font)              scaled to size 5.47559pt on input line 56.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 54.
+(Font)              scaled to size 10.94882pt on input line 56.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 7.66417pt on input line 54.
+(Font)              scaled to size 7.66417pt on input line 56.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 5.47441pt on input line 54.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
+(Font)              scaled to size 5.47441pt on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -732,9 +739,9 @@ Package fontspec Info: Font family 'XITSMath(0)' created for font 'XITS Math'
 
 \sym__um_fam1=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `normal'
-(Font)                  TU/XITSMath(0)/m/n --> TU/XITSMath(0)/m/n on input line 55.
+(Font)                  TU/XITSMath(0)/m/n --> TU/XITSMath(0)/m/n on input line 57.
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
-(Font)                  TU/XITSMath(0)/m/n --> TU/XITSMath(0)/b/n on input line 55.
+(Font)                  TU/XITSMath(0)/m/n --> TU/XITSMath(0)/b/n on input line 57.
 
 Package fontspec Info: Font family 'XITSMath(1)' created for font 'XITS Math'
 (fontspec)             with options
@@ -759,9 +766,9 @@ Package fontspec Info: Font family 'XITSMath(1)' created for font 'XITS Math'
 
 \sym__um_fam2=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `__um_fam2' in version `normal'
-(Font)                  TU/XITSMath(1)/m/n --> TU/XITSMath(1)/m/n on input line 56.
+(Font)                  TU/XITSMath(1)/m/n --> TU/XITSMath(1)/m/n on input line 58.
 LaTeX Font Info:    Overwriting symbol font `__um_fam2' in version `bold'
-(Font)                  TU/XITSMath(1)/m/n --> TU/XITSMath(1)/b/n on input line 56.
+(Font)                  TU/XITSMath(1)/m/n --> TU/XITSMath(1)/b/n on input line 58.
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2021-04-17 v2.8e A comprehensive (SI) units package
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
@@ -770,8 +777,8 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \ar@mcellbox=\box53
 \extrarowheight=\dimen163
 \NC@list=\toks22
-\extratabsurround=\skip70
-\backup@length=\skip71
+\extratabsurround=\skip73
+\backup@length=\skip74
 \ar@cellbox=\box54
 )
 \l__siunitx_tmp_box=\box55
@@ -797,8 +804,8 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \l__siunitx_unit_prefix_base_int=\count297
 \l__siunitx_unit_prefix_gram_int=\count298
 \l__siunitx_number_product_int=\count299
-\c__siunitx_one_fill_skip=\skip72
-\l__siunitx_table_unit_align_skip=\skip73
+\c__siunitx_one_fill_skip=\skip75
+\l__siunitx_table_unit_align_skip=\skip76
 \l__siunitx_table_exponent_dim=\dimen167
 \l__siunitx_table_integer_dim=\dimen168
 \l__siunitx_table_mantissa_dim=\dimen169
@@ -812,8 +819,8 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \l__siunitx_table_post_box=\box59
 \l__siunitx_table_mantissa_box=\box60
 \l__siunitx_table_result_box=\box61
-\l__siunitx_table_number_align_skip=\skip74
-\l__siunitx_table_text_align_skip=\skip75
+\l__siunitx_table_number_align_skip=\skip77
+\l__siunitx_table_text_align_skip=\skip78
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
 )) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/mhchem/mhchem.sty
@@ -834,16 +841,16 @@ Package graphics Info: Driver file: luatex.def on input line 105.
 File: luatex.def 2020/10/05 v1.2a Graphics/color driver for luatex
 ))
 \l__mhchem_ce_distanceFromLastComma_int=\count302
-\__mhchem_arrow_extPgfLength_skip=\skip76
-\mhchem@minispace@tmp=\skip77
-\mhchem@minibackspace@tmp=\skip78
-\mhchem@bondwidth=\skip79
-\mhchem@bondheight=\skip80
-\mhchem@smallbondwidth@tmpA=\skip81
-\mhchem@smallbondwidth@tmpB=\skip82
-\mhchem@smallbondwidth=\skip83
-\mhchem@bondtmp@minussidebearingleft=\skip84
-\mhchem@bondtmp@minussidebearingright=\skip85
+\__mhchem_arrow_extPgfLength_skip=\skip79
+\mhchem@minispace@tmp=\skip80
+\mhchem@minibackspace@tmp=\skip81
+\mhchem@bondwidth=\skip82
+\mhchem@bondheight=\skip83
+\mhchem@smallbondwidth@tmpA=\skip84
+\mhchem@smallbondwidth@tmpB=\skip85
+\mhchem@smallbondwidth=\skip86
+\mhchem@bondtmp@minussidebearingleft=\skip87
+\mhchem@bondtmp@minussidebearingright=\skip88
 \l__mhchem_option_version_int=\count303
 \mhchem@option@minusmathsidebearingleft=\dimen176
 \mhchem@option@minusmathsidebearingright=\dimen177
@@ -878,7 +885,7 @@ Package: xtemplate 2021-05-07 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen182
 \l__xtemplate_tmp_int=\count310
 \l__xtemplate_tmp_muskip=\muskip18
-\l__xtemplate_tmp_skip=\skip86
+\l__xtemplate_tmp_skip=\skip89
 )
 Package: xfrac 2021-05-07 L3 Experimental split-level fractions
 \l__xfrac_slash_box=\box62
@@ -902,7 +909,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks25
 \@floatcapt=\box65
 )
-Package scrhack Info: loading float hack on input line 83.
+Package scrhack Info: loading float hack on input line 85.
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/koma-script/float.hak
 File: float.hak 2021/03/17 v3.33 KOMA-Script scrhack part (hacking package float)
 Package scrhack Info: redefining \newfloat on input line 163.
@@ -919,7 +926,7 @@ Package scrhack Info: loading lscape hack on input line 77.
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/koma-script/lscape.hak
 File: lscape.hak 2021/03/17 v3.33 KOMA-Script scrhack part (hacking package lscape)
 Package scrhack Info: \landscape patched to make \textheight change optional on input line 90.
-\scrh@LT@textheight=\skip87
+\scrh@LT@textheight=\skip90
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
@@ -979,7 +986,7 @@ File: microtype-luatex.def 2021/03/14 v2.8c Definitions specific to luatex (RS)
 Module microtype Info: overwriting function `keepligature' on input line 62
 LaTeX Info: Redefining \lsstyle on input line 710.
 LaTeX Info: Redefining \lslig on input line 710.
-\MT@outer@space=\skip88
+\MT@outer@space=\skip91
 )
 Package microtype Info: Loading configuration file microtype.cfg.
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/microtype/microtype.cfg
@@ -991,9 +998,7 @@ Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count322
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/url/url.sty
+)) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip21
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -1039,14 +1044,14 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@sectionciteorder@0=\count362
 \blx@entrysetcounter=\count363
 \blx@biblioinstance=\count364
-\labelnumberwidth=\skip89
-\labelalphawidth=\skip90
-\biblabelsep=\skip91
-\bibitemsep=\skip92
-\bibnamesep=\skip93
-\bibinitsep=\skip94
-\bibparsep=\skip95
-\bibhang=\skip96
+\labelnumberwidth=\skip92
+\labelalphawidth=\skip93
+\biblabelsep=\skip94
+\bibitemsep=\skip95
+\bibnamesep=\skip96
+\bibinitsep=\skip97
+\bibparsep=\skip98
+\bibhang=\skip99
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language89
@@ -1128,20 +1133,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count433
 \c@pageref=\count434
 \c@savedpageref=\count435
-\shorthandwidth=\skip97
-\shortjournalwidth=\skip98
-\shortserieswidth=\skip99
-\shorttitlewidth=\skip100
-\shortauthorwidth=\skip101
-\shorteditorwidth=\skip102
-\locallabelnumberwidth=\skip103
-\locallabelalphawidth=\skip104
-\localshorthandwidth=\skip105
-\localshortjournalwidth=\skip106
-\localshortserieswidth=\skip107
-\localshorttitlewidth=\skip108
-\localshortauthorwidth=\skip109
-\localshorteditorwidth=\skip110
+\shorthandwidth=\skip100
+\shortjournalwidth=\skip101
+\shortserieswidth=\skip102
+\shorttitlewidth=\skip103
+\shortauthorwidth=\skip104
+\shorteditorwidth=\skip105
+\locallabelnumberwidth=\skip106
+\locallabelalphawidth=\skip107
+\localshorthandwidth=\skip108
+\localshortjournalwidth=\skip109
+\localshortserieswidth=\skip110
+\localshorttitlewidth=\skip111
+\localshortauthorwidth=\skip112
+\localshorteditorwidth=\skip113
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-unicode.def)
@@ -1202,7 +1207,7 @@ File: biblatex.cfg
 ))
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 132.
+(scrhack)             need that hack, on input line 134.
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -1275,7 +1280,7 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \Fld@listcount=\count455
 \c@bookmark@seq@number=\count456
-\Hy@SectionHShift=\skip111
+\Hy@SectionHShift=\skip114
 ) (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (/home/cihad/.local/texlive/2021/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
@@ -1407,7 +1412,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Anleitung
+(biblatex)                anleitung
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -1480,15 +1485,15 @@ Package luatex.def Info: H2.PNG  used on input line 117.
 <Skizze.PNG, id=154, 327.47343pt x 207.02344pt>
 File: Skizze.PNG Graphic file (type png)
 <use Skizze.PNG>
-Package luatex.def Info: Skizze.PNG  used on input line 217.
+Package luatex.def Info: Skizze.PNG  used on input line 218.
 (luatex.def)             Requested size: 334.60571pt x 211.53384pt.
  [8<./Skizze.PNG>]) (./content/durchfuehrung.tex [9]
-<Experiment.PNG, id=174, 310.91156pt x 229.60782pt>
+<Experiment.PNG, id=177, 310.91156pt x 229.60782pt>
 File: Experiment.PNG Graphic file (type png)
 <use Experiment.PNG>
 Package luatex.def Info: Experiment.PNG  used on input line 13.
 (luatex.def)             Requested size: 334.60571pt x 247.10738pt.
-<Schaltung.PNG, id=175, 453.94594pt x 313.9228pt>
+<Schaltung.PNG, id=180, 453.94594pt x 313.9228pt>
 File: Schaltung.PNG Graphic file (type png)
 <use Schaltung.PNG>
 Package luatex.def Info: Schaltung.PNG  used on input line 20.
@@ -1544,38 +1549,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
  []
 
 ) (./content/auswertung.tex
-<Daten/Zyinder/Zylinder_1.png, id=194, 803.0pt x 541.02126pt>
+<Daten/Zyinder/Zylinder_1.png, id=202, 803.0pt x 541.02126pt>
 File: Daten/Zyinder/Zylinder_1.png Graphic file (type png)
 <use Daten/Zyinder/Zylinder_1.png>
 Package luatex.def Info: Daten/Zyinder/Zylinder_1.png  used on input line 10.
 (luatex.def)             Requested size: 184.9429pt x 124.60562pt.
-<Daten/Zyinder/Zylinder_1.pdf, id=195, 433.62pt x 289.08pt>
+<Daten/Zyinder/Zylinder_1.pdf, id=203, 433.62pt x 289.08pt>
 File: Daten/Zyinder/Zylinder_1.pdf Graphic file (type pdf)
 <use Daten/Zyinder/Zylinder_1.pdf>
 Package luatex.def Info: Daten/Zyinder/Zylinder_1.pdf  used on input line 10.
 (luatex.def)             Requested size: 184.9429pt x 123.29626pt.
-<Daten/Zyinder/Zylinder_6.png, id=196, 803.0pt x 541.02126pt>
+<Daten/Zyinder/Zylinder_6.png, id=204, 803.0pt x 541.02126pt>
 File: Daten/Zyinder/Zylinder_6.png Graphic file (type png)
 <use Daten/Zyinder/Zylinder_6.png>
 Package luatex.def Info: Daten/Zyinder/Zylinder_6.png  used on input line 12.
 (luatex.def)             Requested size: 184.9429pt x 124.60562pt.
-<Daten/Zyinder/Zylinder_6.pdf, id=197, 433.62pt x 289.08pt>
+<Daten/Zyinder/Zylinder_6.pdf, id=205, 433.62pt x 289.08pt>
 File: Daten/Zyinder/Zylinder_6.pdf Graphic file (type pdf)
 <use Daten/Zyinder/Zylinder_6.pdf>
 Package luatex.def Info: Daten/Zyinder/Zylinder_6.pdf  used on input line 12.
 (luatex.def)             Requested size: 184.9429pt x 123.29626pt.
-<Daten/Zyinder/Zylinder_12.png, id=198, 803.0pt x 541.02126pt>
+<Daten/Zyinder/Zylinder_12.png, id=206, 803.0pt x 541.02126pt>
 File: Daten/Zyinder/Zylinder_12.png Graphic file (type png)
 <use Daten/Zyinder/Zylinder_12.png>
 Package luatex.def Info: Daten/Zyinder/Zylinder_12.png  used on input line 14.
 (luatex.def)             Requested size: 184.9429pt x 124.60562pt.
-<Daten/Zyinder/Zylinder_12.pdf, id=199, 433.62pt x 289.08pt>
+<Daten/Zyinder/Zylinder_12.pdf, id=207, 433.62pt x 289.08pt>
 File: Daten/Zyinder/Zylinder_12.pdf Graphic file (type pdf)
 <use Daten/Zyinder/Zylinder_12.pdf>
 Package luatex.def Info: Daten/Zyinder/Zylinder_12.pdf  used on input line 14.
 (luatex.def)             Requested size: 184.9429pt x 123.29626pt.
  [13] [14<./Daten/Zyinder/Zylinder_1.png><./Daten/Zyinder/Zylinder_1.pdf><./Daten/Zyinder/Zylinder_6.png><./Daten/Zyinder/Zylinder_6.pdf><./Daten/Zyinder/Zylinder_12.png><./Daten/Zyinder/Zylinder_12.pdf>]
-<Daten/Festkörper/FK_75mm.pdf, id=330, 433.62pt x 289.08pt>
+<Daten/Festkörper/FK_75mm.pdf, id=338, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK_75mm.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK_75mm.pdf>
 Package luatex.def Info: Daten/Festkörper/FK_75mm.pdf  used on input line 28.
@@ -1584,53 +1589,53 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 (Font)              scaled to size 5.00053pt on input line 29.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 29.
-<Daten/Wasserstoff/H_180.pdf, id=332, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/H_180.pdf, id=340, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/H_180.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/H_180.pdf>
 Package luatex.def Info: Daten/Wasserstoff/H_180.pdf  used on input line 41.
 (luatex.def)             Requested size: 376.42744pt x 250.96382pt.
-<Daten/Wasserstoff/H_180.png, id=333, 803.0pt x 541.02126pt>
+<Daten/Wasserstoff/H_180.png, id=341, 803.0pt x 541.02126pt>
 File: Daten/Wasserstoff/H_180.png Graphic file (type png)
 <use Daten/Wasserstoff/H_180.png>
 Package luatex.def Info: Daten/Wasserstoff/H_180.png  used on input line 43.
 (luatex.def)             Requested size: 376.42744pt x 253.6196pt.
  [15<./Daten/Festkörper/FK_75mm.pdf>] [16<./Daten/Wasserstoff/H_180.pdf><./Daten/Wasserstoff/H_180.png>]
-<Daten/Wasserstoff/peak0.pdf, id=436, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peak0.pdf, id=444, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peak0.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peak0.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peak0.pdf  used on input line 60.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/peakLeg0.pdf, id=437, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peakLeg0.pdf, id=445, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peakLeg0.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peakLeg0.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peakLeg0.pdf  used on input line 60.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/peak1.pdf, id=438, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peak1.pdf, id=446, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peak1.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peak1.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peak1.pdf  used on input line 62.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/peakLeg1.pdf, id=439, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peakLeg1.pdf, id=447, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peakLeg1.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peakLeg1.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peakLeg1.pdf  used on input line 62.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/peak2.pdf, id=440, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peak2.pdf, id=448, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peak2.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peak2.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peak2.pdf  used on input line 64.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/peakLeg2.pdf, id=441, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peakLeg2.pdf, id=449, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peakLeg2.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peakLeg2.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peakLeg2.pdf  used on input line 64.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/peak3.pdf, id=442, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peak3.pdf, id=450, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peak3.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peak3.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peak3.pdf  used on input line 66.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/peakLeg3.pdf, id=443, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peakLeg3.pdf, id=451, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peakLeg3.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peakLeg3.pdf>
 Package luatex.def Info: Daten/Wasserstoff/peakLeg3.pdf  used on input line 66.
@@ -1644,27 +1649,27 @@ Overfull \hbox (24.00003pt too wide) in paragraph at lines 59--70
 Overfull \vbox (90.59366pt too high) has occurred while \output is active []
 
  [18<./Daten/Wasserstoff/peak0.pdf><./Daten/Wasserstoff/peakLeg0.pdf><./Daten/Wasserstoff/peak1.pdf><./Daten/Wasserstoff/peakLeg1.pdf><./Daten/Wasserstoff/peak2.pdf><./Daten/Wasserstoff/peakLeg2.pdf><./Daten/Wasserstoff/peak3.pdf><./Daten/Wasserstoff/peakLeg3.pdf>]
-<Daten/Wasserstoff/spalt0.pdf, id=625, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/spalt0.pdf, id=633, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/spalt0.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/spalt0.pdf>
 Package luatex.def Info: Daten/Wasserstoff/spalt0.pdf  used on input line 79.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/spalt1.pdf, id=626, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/spalt1.pdf, id=634, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/spalt1.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/spalt1.pdf>
 Package luatex.def Info: Daten/Wasserstoff/spalt1.pdf  used on input line 79.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/spalt2.pdf, id=627, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/spalt2.pdf, id=635, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/spalt2.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/spalt2.pdf>
 Package luatex.def Info: Daten/Wasserstoff/spalt2.pdf  used on input line 81.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/spalt3.pdf, id=628, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/spalt3.pdf, id=636, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/spalt3.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/spalt3.pdf>
 Package luatex.def Info: Daten/Wasserstoff/spalt3.pdf  used on input line 81.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoff/spaltGesamt.pdf, id=629, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/spaltGesamt.pdf, id=637, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/spaltGesamt.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/spaltGesamt.pdf>
 Package luatex.def Info: Daten/Wasserstoff/spaltGesamt.pdf  used on input line 83.
@@ -1692,216 +1697,226 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 89.
 
-<Daten/Wasserstoff/peak9mm.pdf, id=637, 433.62pt x 289.08pt>
+<Daten/Wasserstoff/peak9mm1.pdf, id=647, 433.62pt x 289.08pt>
+File: Daten/Wasserstoff/peak9mm1.pdf Graphic file (type pdf)
+<use Daten/Wasserstoff/peak9mm1.pdf>
+Package luatex.def Info: Daten/Wasserstoff/peak9mm1.pdf  used on input line 95.
+(luatex.def)             Requested size: 209.12778pt x 139.41846pt.
+<Daten/Wasserstoffmolekuelion/peakLeg.pdf, id=648, 433.62pt x 289.08pt>
+File: Daten/Wasserstoffmolekuelion/peakLeg.pdf Graphic file (type pdf)
+<use Daten/Wasserstoffmolekuelion/peakLeg.pdf>
+Package luatex.def Info: Daten/Wasserstoffmolekuelion/peakLeg.pdf  used on input line 95.
+(luatex.def)             Requested size: 209.12778pt x 139.41846pt.
+<Daten/Wasserstoff/peak9mm.pdf, id=649, 433.62pt x 289.08pt>
 File: Daten/Wasserstoff/peak9mm.pdf Graphic file (type pdf)
 <use Daten/Wasserstoff/peak9mm.pdf>
-Package luatex.def Info: Daten/Wasserstoff/peak9mm.pdf  used on input line 95.
+Package luatex.def Info: Daten/Wasserstoff/peak9mm.pdf  used on input line 97.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-File: Daten/Wasserstoff/peakLeg1.pdf Graphic file (type pdf)
-<use Daten/Wasserstoff/peakLeg1.pdf>
-Package luatex.def Info: Daten/Wasserstoff/peakLeg1.pdf  used on input line 95.
+File: Daten/Wasserstoff/peakLeg0.pdf Graphic file (type pdf)
+<use Daten/Wasserstoff/peakLeg0.pdf>
+Package luatex.def Info: Daten/Wasserstoff/peakLeg0.pdf  used on input line 97.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
 
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 94--98
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 94--100
  [][] 
  []
 
 [20<./Daten/Wasserstoff/spalt0.pdf><./Daten/Wasserstoff/spalt1.pdf><./Daten/Wasserstoff/spalt2.pdf><./Daten/Wasserstoff/spalt3.pdf><./Daten/Wasserstoff/spaltGesamt.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-<Daten/Wasserstoffmolekuelion/H2_5mm.pdf, id=854, 433.62pt x 289.08pt>
+[21<./Daten/Wasserstoff/peak9mm1.pdf><./Daten/Wasserstoffmolekuelion/peakLeg.pdf><./Daten/Wasserstoff/peak9mm.pdf>]
+<Daten/Wasserstoffmolekuelion/H2_5mm.pdf, id=941, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/H2_5mm.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/H2_5mm.pdf>
-Package luatex.def Info: Daten/Wasserstoffmolekuelion/H2_5mm.pdf  used on input line 110.
+Package luatex.def Info: Daten/Wasserstoffmolekuelion/H2_5mm.pdf  used on input line 112.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoffmolekuelion/H2_10mm.pdf, id=855, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/H2_10mm.pdf, id=942, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/H2_10mm.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/H2_10mm.pdf>
-Package luatex.def Info: Daten/Wasserstoffmolekuelion/H2_10mm.pdf  used on input line 110.
+Package luatex.def Info: Daten/Wasserstoffmolekuelion/H2_10mm.pdf  used on input line 112.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoffmolekuelion/H2_15mm.pdf, id=856, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/H2_15mm.pdf, id=943, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/H2_15mm.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/H2_15mm.pdf>
-Package luatex.def Info: Daten/Wasserstoffmolekuelion/H2_15mm.pdf  used on input line 112.
+Package luatex.def Info: Daten/Wasserstoffmolekuelion/H2_15mm.pdf  used on input line 114.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoffmolekuelion/H2_20mm_180.pdf, id=857, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/H2_20mm_180.pdf, id=944, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/H2_20mm_180.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/H2_20mm_180.pdf>
-Package luatex.def Info: Daten/Wasserstoffmolekuelion/H2_20mm_180.pdf  used on input line 112.
+Package luatex.def Info: Daten/Wasserstoffmolekuelion/H2_20mm_180.pdf  used on input line 114.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoffmolekuelion/blendAbhaeng.pdf, id=858, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/blendAbhaeng.pdf, id=945, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/blendAbhaeng.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/blendAbhaeng.pdf>
-Package luatex.def Info: Daten/Wasserstoffmolekuelion/blendAbhaeng.pdf  used on input line 114.
+Package luatex.def Info: Daten/Wasserstoffmolekuelion/blendAbhaeng.pdf  used on input line 116.
 (luatex.def)             Requested size: 271.86356pt x 181.25238pt.
 
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 109--117
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 111--119
  [][] 
  []
 
-<Daten/Wasserstoffmolekuelion/resonanzBlend.pdf, id=859, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/resonanzBlend.pdf, id=946, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/resonanzBlend.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/resonanzBlend.pdf>
-Package luatex.def Info: Daten/Wasserstoffmolekuelion/resonanzBlend.pdf  used on input line 122.
+Package luatex.def Info: Daten/Wasserstoffmolekuelion/resonanzBlend.pdf  used on input line 124.
 (luatex.def)             Requested size: 334.60571pt x 223.0819pt.
-[21<./Daten/Wasserstoff/peak9mm.pdf>] [22<./Daten/Wasserstoffmolekuelion/H2_5mm.pdf><./Daten/Wasserstoffmolekuelion/H2_10mm.pdf><./Daten/Wasserstoffmolekuelion/H2_15mm.pdf><./Daten/Wasserstoffmolekuelion/H2_20mm_180.pdf><./Daten/Wasserstoffmolekuelion/blendAbhaeng.pdf>]
+[22] [23<./Daten/Wasserstoffmolekuelion/H2_5mm.pdf><./Daten/Wasserstoffmolekuelion/H2_10mm.pdf><./Daten/Wasserstoffmolekuelion/H2_15mm.pdf><./Daten/Wasserstoffmolekuelion/H2_20mm_180.pdf><./Daten/Wasserstoffmolekuelion/blendAbhaeng.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 126.
+(hyperref)                removing `math shift' on input line 128.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 126.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 128.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 1.82538pt
-(hyperref)                removed on input line 126.
+(hyperref)                removed on input line 128.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 126.
+(hyperref)                removing `math shift' on input line 128.
 
-<Daten/Wasserstoffmolekuelion/peak0.pdf, id=1101, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/peak0.pdf, id=1164, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/peak0.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/peak0.pdf>
-Package luatex.def Info: Daten/Wasserstoffmolekuelion/peak0.pdf  used on input line 133.
+Package luatex.def Info: Daten/Wasserstoffmolekuelion/peak0.pdf  used on input line 136.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoffmolekuelion/peak1.pdf, id=1102, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/peak1.pdf, id=1165, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/peak1.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/peak1.pdf>
-Package luatex.def Info: Daten/Wasserstoffmolekuelion/peak1.pdf  used on input line 135.
+Package luatex.def Info: Daten/Wasserstoffmolekuelion/peak1.pdf  used on input line 138.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoffmolekuelion/peak2.pdf, id=1103, 433.62pt x 289.08pt>
+<Daten/Wasserstoffmolekuelion/peak2.pdf, id=1166, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/peak2.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/peak2.pdf>
-Package luatex.def Info: Daten/Wasserstoffmolekuelion/peak2.pdf  used on input line 137.
+Package luatex.def Info: Daten/Wasserstoffmolekuelion/peak2.pdf  used on input line 140.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Wasserstoffmolekuelion/peakLeg.pdf, id=1104, 433.62pt x 289.08pt>
 File: Daten/Wasserstoffmolekuelion/peakLeg.pdf Graphic file (type pdf)
 <use Daten/Wasserstoffmolekuelion/peakLeg.pdf>
-Package luatex.def Info: Daten/Wasserstoffmolekuelion/peakLeg.pdf  used on input line 137.
+Package luatex.def Info: Daten/Wasserstoffmolekuelion/peakLeg.pdf  used on input line 140.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
 
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 132--140
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 135--143
  [][] 
  []
 
-[23<./Daten/Wasserstoffmolekuelion/resonanzBlend.pdf>] [24<./Daten/Wasserstoffmolekuelion/peak0.pdf><./Daten/Wasserstoffmolekuelion/peak1.pdf><./Daten/Wasserstoffmolekuelion/peak2.pdf><./Daten/Wasserstoffmolekuelion/peakLeg.pdf>]
-<Daten/Festkörper/FK1_16mm_1.pdf, id=1257, 433.62pt x 289.08pt>
+[24<./Daten/Wasserstoffmolekuelion/resonanzBlend.pdf>] [25<./Daten/Wasserstoffmolekuelion/peak0.pdf><./Daten/Wasserstoffmolekuelion/peak1.pdf><./Daten/Wasserstoffmolekuelion/peak2.pdf>]
+<Daten/Festkörper/FK1_16mm_1.pdf, id=1299, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK1_16mm_1.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK1_16mm_1.pdf>
-Package luatex.def Info: Daten/Festkörper/FK1_16mm_1.pdf  used on input line 159.
+Package luatex.def Info: Daten/Festkörper/FK1_16mm_1.pdf  used on input line 163.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Festkörper/FK1_16mm_3.pdf, id=1258, 433.62pt x 289.08pt>
+<Daten/Festkörper/FK1_16mm_3.pdf, id=1300, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK1_16mm_3.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK1_16mm_3.pdf>
-Package luatex.def Info: Daten/Festkörper/FK1_16mm_3.pdf  used on input line 159.
+Package luatex.def Info: Daten/Festkörper/FK1_16mm_3.pdf  used on input line 163.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Festkörper/FK1_16mm_5.pdf, id=1259, 433.62pt x 289.08pt>
+<Daten/Festkörper/FK1_16mm_5.pdf, id=1301, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK1_16mm_5.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK1_16mm_5.pdf>
-Package luatex.def Info: Daten/Festkörper/FK1_16mm_5.pdf  used on input line 161.
+Package luatex.def Info: Daten/Festkörper/FK1_16mm_5.pdf  used on input line 165.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Festkörper/FK1_16mm_9.pdf, id=1260, 433.62pt x 289.08pt>
+<Daten/Festkörper/FK1_16mm_9.pdf, id=1302, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK1_16mm_9.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK1_16mm_9.pdf>
-Package luatex.def Info: Daten/Festkörper/FK1_16mm_9.pdf  used on input line 161.
+Package luatex.def Info: Daten/Festkörper/FK1_16mm_9.pdf  used on input line 165.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
 
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 158--165
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 162--169
  [][] 
  []
 
-[25]
-<Daten/Festkörper/vergleich.pdf, id=1268, 433.62pt x 289.08pt>
+[26]
+<Daten/Festkörper/vergleich.pdf, id=1310, 433.62pt x 289.08pt>
 File: Daten/Festkörper/vergleich.pdf Graphic file (type pdf)
 <use Daten/Festkörper/vergleich.pdf>
-Package luatex.def Info: Daten/Festkörper/vergleich.pdf  used on input line 177.
+Package luatex.def Info: Daten/Festkörper/vergleich.pdf  used on input line 182.
 (luatex.def)             Requested size: 334.60571pt x 223.0819pt.
- [26<./Daten/Festkörper/FK1_16mm_1.pdf><./Daten/Festkörper/FK1_16mm_3.pdf><./Daten/Festkörper/FK1_16mm_5.pdf><./Daten/Festkörper/FK1_16mm_9.pdf>]
-<Daten/Festkörper/FK3_16mm_37-5mm.pdf, id=1437, 433.62pt x 289.08pt>
+ [27<./Daten/Festkörper/FK1_16mm_1.pdf><./Daten/Festkörper/FK1_16mm_3.pdf><./Daten/Festkörper/FK1_16mm_5.pdf><./Daten/Festkörper/FK1_16mm_9.pdf>]
+<Daten/Festkörper/FK3_16mm_37-5mm.pdf, id=1479, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK3_16mm_37-5mm.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK3_16mm_37-5mm.pdf>
-Package luatex.def Info: Daten/Festkörper/FK3_16mm_37-5mm.pdf  used on input line 193.
+Package luatex.def Info: Daten/Festkörper/FK3_16mm_37-5mm.pdf  used on input line 198.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Festkörper/FK3_16mm_37-5mmZOOM.pdf, id=1438, 433.62pt x 289.08pt>
+<Daten/Festkörper/FK3_16mm_37-5mmZOOM.pdf, id=1480, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK3_16mm_37-5mmZOOM.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK3_16mm_37-5mmZOOM.pdf>
-Package luatex.def Info: Daten/Festkörper/FK3_16mm_37-5mmZOOM.pdf  used on input line 193.
+Package luatex.def Info: Daten/Festkörper/FK3_16mm_37-5mmZOOM.pdf  used on input line 198.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Festkörper/FK3_16mm_62-5mm.pdf, id=1439, 433.62pt x 289.08pt>
+<Daten/Festkörper/FK3_16mm_62-5mm.pdf, id=1481, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK3_16mm_62-5mm.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK3_16mm_62-5mm.pdf>
-Package luatex.def Info: Daten/Festkörper/FK3_16mm_62-5mm.pdf  used on input line 195.
+Package luatex.def Info: Daten/Festkörper/FK3_16mm_62-5mm.pdf  used on input line 200.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Festkörper/FK3_16mm_62-5mmZOOM.pdf, id=1440, 433.62pt x 289.08pt>
+<Daten/Festkörper/FK3_16mm_62-5mmZOOM.pdf, id=1482, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK3_16mm_62-5mmZOOM.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK3_16mm_62-5mmZOOM.pdf>
-Package luatex.def Info: Daten/Festkörper/FK3_16mm_62-5mmZOOM.pdf  used on input line 195.
+Package luatex.def Info: Daten/Festkörper/FK3_16mm_62-5mmZOOM.pdf  used on input line 200.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Festkörper/FK3_16mm_75mm.pdf, id=1441, 433.62pt x 289.08pt>
+<Daten/Festkörper/FK3_16mm_75mm.pdf, id=1483, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK3_16mm_75mm.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK3_16mm_75mm.pdf>
-Package luatex.def Info: Daten/Festkörper/FK3_16mm_75mm.pdf  used on input line 197.
+Package luatex.def Info: Daten/Festkörper/FK3_16mm_75mm.pdf  used on input line 202.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
-<Daten/Festkörper/FK3_16mm_75mmZOOM.pdf, id=1442, 433.62pt x 289.08pt>
+<Daten/Festkörper/FK3_16mm_75mmZOOM.pdf, id=1484, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK3_16mm_75mmZOOM.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK3_16mm_75mmZOOM.pdf>
-Package luatex.def Info: Daten/Festkörper/FK3_16mm_75mmZOOM.pdf  used on input line 197.
+Package luatex.def Info: Daten/Festkörper/FK3_16mm_75mmZOOM.pdf  used on input line 202.
 (luatex.def)             Requested size: 209.12778pt x 139.41846pt.
 
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 191--201
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 196--206
  [][] 
  []
 
-[27<./Daten/Festkörper/vergleich.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 204--209
+[28<./Daten/Festkörper/vergleich.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 209--214
 
  []
 
-[28<./Daten/Festkörper/FK3_16mm_37-5mm.pdf><./Daten/Festkörper/FK3_16mm_37-5mmZOOM.pdf><./Daten/Festkörper/FK3_16mm_62-5mm.pdf><./Daten/Festkörper/FK3_16mm_62-5mmZOOM.pdf><./Daten/Festkörper/FK3_16mm_75mm.pdf><./Daten/Festkörper/FK3_16mm_75mmZOOM.pdf>]
-<Daten/Festkörper/FK4.pdf, id=1816, 433.62pt x 289.08pt>
+[29<./Daten/Festkörper/FK3_16mm_37-5mm.pdf><./Daten/Festkörper/FK3_16mm_37-5mmZOOM.pdf><./Daten/Festkörper/FK3_16mm_62-5mm.pdf><./Daten/Festkörper/FK3_16mm_62-5mmZOOM.pdf><./Daten/Festkörper/FK3_16mm_75mm.pdf><./Daten/Festkörper/FK3_16mm_75mmZOOM.pdf>]
+<Daten/Festkörper/FK4.pdf, id=1858, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK4.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK4.pdf>
-Package luatex.def Info: Daten/Festkörper/FK4.pdf  used on input line 212.
+Package luatex.def Info: Daten/Festkörper/FK4.pdf  used on input line 217.
 (luatex.def)             Requested size: 292.7776pt x 195.19556pt.
-<Daten/Festkörper/FK5.pdf, id=1818, 433.62pt x 289.08pt>
+<Daten/Festkörper/FK5.pdf, id=1860, 433.62pt x 289.08pt>
 File: Daten/Festkörper/FK5.pdf Graphic file (type pdf)
 <use Daten/Festkörper/FK5.pdf>
-Package luatex.def Info: Daten/Festkörper/FK5.pdf  used on input line 222.
+Package luatex.def Info: Daten/Festkörper/FK5.pdf  used on input line 227.
 (luatex.def)             Requested size: 292.7776pt x 195.19556pt.
-) (./content/diskussion.tex [29<./Daten/Festkörper/FK4.pdf>] [30<./Daten/Festkörper/FK5.pdf>]) [31] [32] (./build/main.aux)
+) (./content/diskussion.tex [30<./Daten/Festkörper/FK4.pdf>] [31<./Daten/Festkörper/FK5.pdf>]) [32] [33] (./build/main.aux)
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 16D948C401B9D17BAD9806E5F61AF272;33964.
+(rerunfilecheck)             Checksum: 7AC72C9540C1F41C736874A60352B06A;34300.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: E05AF31927CF4F1A297928AA12AF5C02;4526.
+(rerunfilecheck)             Checksum: E3686945D9C913D224BEF5D0416E584B;4526.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 36349 strings out of 478388
+ 36400 strings out of 478388
  100000,1977958 words of node,token memory allocated
  962 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 5 dir, 2 glue, 4 kern, 1 glyph, 95 attribute, 82 glue_spec, 49 attribute_list, 1 write, 5 pdf_action nodes
-   avail lists: 1:1,2:1387,3:469,4:65,5:544,6:100,7:7787,8:95,9:756,10:28,11:969,12:1
- 54868 multiletter control sequences out of 65536+600000
- 164 fonts using 58588307 bytes
+   avail lists: 1:1,2:1387,3:469,4:64,5:544,6:100,7:7892,8:95,9:751,10:28,11:987,12:1
+ 54897 multiletter control sequences out of 65536+600000
+ 164 fonts using 58587575 bytes
  113i,15n,118p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/cihad/.local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (32 pages, 1167924 bytes).
+Output written on main.pdf (33 pages, 1181002 bytes).
 
-PDF statistics: 2147 PDF objects out of 2487 (max. 8388607)
- 932 compressed objects within 10 object streams
- 119 named destinations out of 1000 (max. 131072)
+PDF statistics: 2188 PDF objects out of 2487 (max. 8388607)
+ 953 compressed objects within 10 object streams
+ 120 named destinations out of 1000 (max. 131072)
  265 words of extra memory for PDF output out of 10000 (max. 100000000)
 
