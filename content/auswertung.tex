@@ -2,19 +2,19 @@
 \label{sec:auswertung}
 
 \subsection{Eichung der Messanlage}
-Für die Eichung der Messanlagen wurden Messungen der Frequenzspektren von verschiedenen Ketten aus Zylinderresonatoren aufgenommen. Die Messung wurde sowohl mit dem Oszilloskop als auch mit dem Computer aufgenommen. Die Ergenisse sind in 
+Für die Eichung der Messanlagen wurden Messungen der Frequenzspektren von verschiedenen Ketten aus Zylinderresonatoren aufgenommen. Die Messung wurde mit dem Computer aufgenommen. Die Ergenisse sind in 
 Abbildung \ref{fig:zyl1-6-12} dargestellt. 
 \begin{figure}[H]
     \centering
-    \begin{tabular}{cc}
-      \includegraphics[width=65mm]{Daten/Zyinder/Zylinder_1.png} &   \includegraphics[width=65mm]{Daten/Zyinder/Zylinder_1.pdf} \\
-    (a) 1 Zylinder & (b) 1 Zylinder \\[6pt]
-     \includegraphics[width=65mm]{Daten/Zyinder/Zylinder_6.png} &   \includegraphics[width=65mm]{Daten/Zyinder/Zylinder_6.pdf} \\
-    (c) 6 Zylinder & (d) 6 Zylinder \\[6pt]
-    \includegraphics[width=65mm]{Daten/Zyinder/Zylinder_12.png} &   \includegraphics[width=65mm]{Daten/Zyinder/Zylinder_12.pdf} \\
-    (e) 12 Zylinder & (f) 12 Zylinder \\[6pt]
+    \begin{tabular}{c}
+      \includegraphics[width=0.7\textwidth]{Daten/Zyinder/Zylinder_1.pdf} \\
+    (a) 1 Zylinder \\[6pt]
+     \includegraphics[width=0.7\textwidth]{Daten/Zyinder/Zylinder_6.pdf} \\
+    (b) 6 Zylinder \\[6pt]
+    \includegraphics[width=0.7\textwidth]{Daten/Zyinder/Zylinder_12.pdf} \\
+    (c) 12 Zylinder \\[6pt]
     \end{tabular}
-    \caption{Gemessene Frequenzspektren der Zylinder-Resonatoren mit unterschiedlicher Länge. Die Messung am Oszillator ist links angegeben und die Messung am Computer rechts. } 
+    \caption{Gemessene Frequenzspektren der Zylinder-Resonatoren mit unterschiedlicher Länge. } 
     \label{fig:zyl1-6-12}
 \end{figure}
 
@@ -38,9 +38,9 @@ Die beschrifteten Resonanzen werden in der folgenden Analyse für die Berechnung
 \begin{figure}[H]
     \centering
     \begin{tabular}{c}
-    \includegraphics[width=0.9\textwidth]{Daten/Wasserstoff/H_180.pdf} \\
+    \includegraphics[width=0.9\textwidth]{Daten/Wasserstoff/neu/H_180.pdf} \\
     (a) Messung am Computer \\[6pt]
-    \includegraphics[width=0.9\textwidth]{Daten/Wasserstoff/H_180.png} \\
+    \includegraphics[width=0.9\textwidth]{Daten/Oszilloskop/scope_4.png} \\
     (b) Messung am Oszilloskop \\[6pt]
     \end{tabular}
     \caption{Das Frequenzspektrum eines kugelförmigen Hohlraumresonators bei einer Ausrichtung von $\theta = 180\si{°}$ in dem Bereich $0.1 \,\si{\kilo\hertz}$ bis $10 \,\si{\kilo\hertz}$. }
@@ -52,19 +52,19 @@ Für die Berechnung der Druckamplitude mithilfe der gemessenen Werte wird der Au
 \begin{align*}
   \varphi = \arccos(\frac{1}{2} \cos(\alpha) - \frac{1}{2}).
 \end{align*}
-Diese Umrechnung folgt aus einer Analyse mit Drehmatrizen \cite{qa-dresden}. Die in Abbildung \ref{fig:h180} beschrifteten Resonanzfrequenzen (also $2.3 \,\si{\hertz}$, $3.67 \,\si{\hertz}$, $6.18 \,\si{\hertz}$ und $7.38 \,\si{\hertz}$) werden nur in Abhängigkeit der Auslenkung in $10°$-Schritten erneut gemessen. Für diese Messung werden bei jeder Auslenkung die Position der Peaks erneut bestimmt und die Höhe abgelesen. 
+Diese Umrechnung folgt aus einer Analyse mit Drehmatrizen \cite{qa-dresden}. Die in Abbildung \ref{fig:h180} beschrifteten Resonanzfrequenzen (also $2.32 \,\si{\hertz}$, $3.71 \,\si{\hertz}$, $6.24 \,\si{\hertz}$ und $7.46 \,\si{\hertz}$) werden nur in Abhängigkeit der Auslenkung in $10°$-Schritten erneut gemessen. Für diese Messung werden bei jeder Auslenkung die Position der Peaks erneut bestimmt und die Höhe abgelesen. 
 Die Messung wird in Abhängigkeit des Polarwinkels in Abbildung \ref{fig:hpeaks} aufgetragen. In der selben Abbildung befindet sich der theoretisch erwartete Verlauf bzw. die entsprechenden Legendrepolynome. 
 \begin{figure}[H]
   \centering
   \begin{tabular}{cc}
-    \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/peak0.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/peakLeg0.pdf} \\
-  (a) Resonanz bei $2.3 \,\si{\kilo\hertz} $& (b) $P_1(\cos(\theta))$ \\[6pt]
-  \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/peak1.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/peakLeg1.pdf} \\
-  (c) Resonanz bei $3.67 \,\si{\kilo\hertz}$ & (d) $P_2(\cos(\theta))$ \\[6pt]
-  \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/peak2.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/peakLeg2.pdf} \\
-  (c) Resonanz bei $6.18 \,\si{\kilo\hertz}$ & (d) $P_4(\cos(\theta))$ \\[6pt]
-  \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/peak3.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/peakLeg3.pdf} \\
-  (c) Resonanz bei $7.38 \,\si{\kilo\hertz}$ & (d) $P_5(\cos(\theta))$ \\[6pt]
+    \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/neu/peak0.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/peakLeg0.pdf} \\
+  (a) Resonanz bei $2.32 \,\si{\kilo\hertz} $& (b) $P_1(\cos(\theta))$ \\[6pt]
+  \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/neu/peak1.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff//peakLeg1.pdf} \\
+  (c) Resonanz bei $3.71 \,\si{\kilo\hertz}$ & (d) $P_2(\cos(\theta))$ \\[6pt]
+  \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/neu/peak2.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/peakLeg2.pdf} \\
+  (c) Resonanz bei $6.24 \,\si{\kilo\hertz}$ & (d) $P_4(\cos(\theta))$ \\[6pt]
+  \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/neu/peak3.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/peakLeg3.pdf} \\
+  (c) Resonanz bei $7.46 \,\si{\kilo\hertz}$ & (d) $P_5(\cos(\theta))$ \\[6pt]
   
   \end{tabular}
   \caption{Amplitudenmessung an den Resonanzfrequenzen in Abhängigkeit vom Azimutwinkel $\phi$ neben der passenden Legendrepolynome. } 
@@ -76,11 +76,11 @@ Die Resonanz spaltet sich in zwei Peaks auf, da die Kugelsymmetrie des Resonator
 \begin{figure}[H]
   \centering
   \begin{tabular}{cc}
-    \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/spalt0.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/spalt1.pdf} \\
+    \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/neu/spalt0.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/neu/spalt1.pdf} \\
   (a) Ohne Ring & (b) $3 \,\si{\milli\metre}$ Ring \\[6pt]
-  \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/spalt2.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/spalt3.pdf} \\
+  \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/neu/spalt2.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/neu/spalt3.pdf} \\
   (c)  $6 \,\si{\milli\metre}$ Ring & (d)  $9 \,\si{\milli\metre}$ Ring \\[6pt]
-  \multicolumn{2}{c}{\includegraphics[width=0.65\textwidth]{Daten/Wasserstoff/spaltGesamt.pdf}}\\[6pt]
+  \multicolumn{2}{c}{\includegraphics[width=0.65\textwidth]{Daten/Wasserstoff/neu/spaltGesamt.pdf}}\\[6pt]
   \multicolumn{2}{c}{(e) Abstand in Abhängigkeit von der Blendendicke.}
   \end{tabular}
   \caption{Aufspaltung des Peaks bei $2.3 \,\si{\kilo\hertz}$ nachdem verschiedene Ringe die Kugelsymmetrie brechen. Der Schatten gibt die Unsicherheit des Fits wieder. } 
@@ -92,28 +92,28 @@ Die $2.08 \,\si{\kilo\hertz}$ Resonanz weist daher auf den Zustand $l=1$ und $m=
 \begin{figure}[H]
   \centering
   \begin{tabular}{cc}
-    \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/peak9mm1.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/peakLeg.pdf} \\
-  (a) $2.08 \,\si{\kilo\hertz}$ Resonanz & (b) $P_0(\cos(\theta))$ \\[6pt]
-  \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/peak9mm.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/peakLeg0.pdf} \\
-  (c) $2.25 \,\si{\kilo\hertz}$ Resonanz & (d) $P_1(\cos(\theta))$ \\[6pt]
+    \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/neu/peak9mm1.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/peakLeg.pdf} \\
+  (a) $2.10 \,\si{\kilo\hertz}$ Resonanz & (b) $P_0(\cos(\theta))$ \\[6pt]
+  \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/neu/peak9mm.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/peakLeg0.pdf} \\
+  (c) $2.27 \,\si{\kilo\hertz}$ Resonanz & (d) $P_1(\cos(\theta))$ \\[6pt]
   \end{tabular}
-  \caption{Gemessene Druckamplitude der $2.25 \,\si{\kilo\hertz}$ und $2.08 \,\si{\kilo\hertz}$ Resonanz mit der $9 \,\si{\milli\metre}$ Blende mit den zugehörigen Legendrepolynomen.} 
+  \caption{Gemessene Druckamplitude der $2.27 \,\si{\kilo\hertz}$ und $2.10 \,\si{\kilo\hertz}$ Resonanz mit der $9 \,\si{\milli\metre}$ Blende mit den zugehörigen Legendrepolynomen.} 
   \label{fig:9mm}
 \end{figure}
 \subsection{Das Wasserstoffmolekül}
 \subsubsection{Änderung des Frequenzspektrums in Abhängigkeit des Blendendurchmessers}
 \label{sec:h2peaks}
 Ein Wasserstoffmolekülion ist anhand zwei gekoppelter Kugelresonatoren modelliert. Die folgenden Messungen wurden mit Blenden verschiedener Durchmesser zwischen den Kugelresonatoren 
-aufgenommen. Das Frequenzspektrum dieses gekoppelten Resonators wurde für die Blenden mit $5\,mm$, $10\,mm$, $15\,mm$ und $20\,mm$ Durchmesser gemessen und in der Abbildung \ref{fig:h2} visualisiert. \\\\
+aufgenommen. Das Frequenzspektrum dieses gekoppelten Resonators wurde für die Blenden mit $10\,mm$, $15\,mm$, $20\,mm$ und $25\,mm$ Durchmesser gemessen und in der Abbildung \ref{fig:h2} visualisiert. \\\\
 
 \begin{figure}[H]
   \centering
   \begin{tabular}{cc}
-    \includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/H2_5mm.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/H2_10mm.pdf} \\
-  (a) $5 \, \si{\milli\metre}$  & (b) $10 \, \si{\milli\metre}$ \\[6pt]
-  \includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/H2_15mm.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/H2_20mm_180.pdf} \\
-  (c)  $15 \, \si{\milli\metre}$ & (d)  $20 \, \si{\milli\metre}$ \\[6pt]
-  \multicolumn{2}{c}{\includegraphics[width=0.65\textwidth]{Daten/Wasserstoffmolekuelion/blendAbhaeng.pdf}}\\[6pt]
+    \includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/neu/H2_10mm_180.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/neu/H2_15mm_180.pdf} \\
+  (a) $10 \, \si{\milli\metre}$  & (b) $15 \, \si{\milli\metre}$ \\[6pt]
+  \includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/neu/H2_20mm_180.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/neu/H2_25mm_180.pdf} \\
+  (c)  $20 \, \si{\milli\metre}$ & (d)  $25 \, \si{\milli\metre}$ \\[6pt]
+  \multicolumn{2}{c}{\includegraphics[width=0.65\textwidth]{Daten/Wasserstoffmolekuelion/neu/blendAbhaeng.pdf}}\\[6pt]
   \multicolumn{2}{c}{(e) Vergleich}
   \end{tabular}
   \caption{Frequenzspektren des gekoppelten Resonators in Abhängigkeit der verschiedenen Blendendurchmesser.} 
@@ -121,11 +121,11 @@ aufgenommen. Das Frequenzspektrum dieses gekoppelten Resonators wurde für die B
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{Daten/Wasserstoffmolekuelion/resonanzBlend.pdf}
+  \includegraphics[width=0.8\textwidth]{Daten/Wasserstoffmolekuelion/neu/resonanzBlend.pdf}
   \caption{Resonanzfrequenzen des gekoppelten Resonators in Abhängigkeit der verschiedenen Blendendurchmesser}
   \label{fig:h2Res}
 \end{figure}
-\subsubsection{Winkelverteilung mit der $20 \, mm$ Blende}
+\subsubsection{Winkelverteilung mit der $25 \, mm$ Blende}
 Die Winkelverteilung der drei Peaks aus Abschnitt \ref{sec:h2peaks} wurden in $10°$ Schritten aufgenommen und in der Abbildung \ref{fig:h2_2} wiedergegeben. \\
 Peak $1$ und $3$ sind die aufgespaltenen Peaks aus dem Zustand $l=1$, $m=0$ und entsprechen daher den Peaks $2\sigma_g$ und $2\sigma_u$. Die Aufspaltung folgt aus der Austauschwechselwirkung (s. Gleichungen \ref{eqn:wellenfunktion1}-\ref{eqn:wellenfunktion4}). In der Sprache der Bindungstypen entspricht die Bindung dieser Zustände im Wasserstoffmolekülion einer s-Bindung (die Bindungsrichtung entspricht der Symmetrieachse der Schallkörper in den einzelnen Sphären).
 Peak $2$ muss demnach aus dem Zustand $l=1$, $m=\pm 1$ hervorgehen. Dies entspricht einer p-Bindung (die Ausrichtung der Symmetrieachse der Schallkörper in den einzelnen Sphären steht senkrecht zur Bindungsrichtung). Auch hier gibt es einen bindenden und antibindenden Zustand aus der Austauschwechselwirkung, aber da die Bindungsstärke der $p$-Bindung deutlich kleiner als die Bindungsstärke der s-Bindung ist, können die beiden Peaks $1\pi_g$ und $1\pi_u$ nicht unterschieden werden (die Frequenzen liegen zu nahe beieinander). 
@@ -133,11 +133,11 @@ Peak $2$ muss demnach aus dem Zustand $l=1$, $m=\pm 1$ hervorgehen. Dies entspri
 \begin{figure}[H]
   \centering
   \begin{tabular}{cc}
-  \multicolumn{2}{c}{\includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/peak0.pdf}}\\[6pt]
-  \multicolumn{2}{c}{(a) Peak 1}\\[6pt]
-  \multicolumn{2}{c}{\includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/peak1.pdf}}\\[6pt]
+  \includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/neu/peak0.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoff/peakLeg0.pdf}\\[6pt]
+  (a)  Peak 1 & (b)  $P_1(\cos(\theta))$ \\[6pt]
+  \multicolumn{2}{c}{\includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/neu/peak1.pdf}}\\[6pt]
   \multicolumn{2}{c}{(b) Peak 2}\\[6pt]
-  \includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/peak2.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/peakLeg.pdf}\\[6pt]
+  \includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/neu/peak2.pdf} &   \includegraphics[width=0.5\textwidth]{Daten/Wasserstoffmolekuelion/peakLeg.pdf}\\[6pt]
   (c)  Peak 3 & (d)  $P_0(\cos(\theta))$ \\[6pt]
   \end{tabular}
   \caption{Winkelverteilung des gekoppelten Resonators bei einem Blendendurchmesser von $20\, mm$ mit passenden Legendrepolynomen.} 
