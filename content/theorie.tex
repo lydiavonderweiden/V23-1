@@ -25,14 +25,14 @@ Dabei ist $\Psi \! \left( \vec{r} \right)$ ist die Wellenfunktion, $E$ die Gesam
     \label{eqn:H_H}
 \end{equation}
 
-Hierbei ist $\hat{p}$ der Impulsopertaor, $\hbar$ das gekürzte planksche Wirkungsquantum, $m$ die Masse des Elektrons, $e$ die Elementarladung und $\epsilon_0$ die elektrische Feldkonstante. Aufgrund der Kugelsymmetrie des Systemes werden Kugelkoordinaten verwendet, dort lautet der Laplace-Operator $\Laplace$:
+Hierbei ist $\hat{p}$ der Impulsoperator, $\hbar$ das gekürzte Planksche Wirkungsquantum, $m$ die Masse des Elektrons, $e$ die Elementarladung und $\epsilon_0$ die elektrische Feldkonstante. Aufgrund der Kugelsymmetrie des Systems werden Kugelkoordinaten verwendet, dort lautet der Laplace-Operator $\Laplace$:
 
 \begin{equation}
     \Laplace = \frac{1}{r^2} \frac{\partial}{\partial r} \left( r^2 \frac{\partial}{\partial r} \right) + \frac{1}{r^2 \sin \theta} \frac{\partial}{\partial \theta} \left( \sin \theta \frac{\partial}{\partial \theta} \right) + \frac{1}{r^2 \sin^2 \theta} \frac{\partial^2}{\partial \varphi^2} = \Laplace_r + \frac{1}{r^2} \Laplace_{\theta, \varphi}
     \label{eqn:laplace}
 \end{equation}
 
-Um die Schrödingergleichung zu lösen wird die Wellenfunktion $\Psi$ mit dem Seperationsansatz in einen Radialteil $R_{nl}$ und einen Winkelanteil $\Phi_{lm}$ aufgeteilt:
+Um die Schrödingergleichung zu lösen wird die Wellenfunktion $\Psi$ mit dem Separationsansatz in einen Radialteil $R_{nl}$ und einen Winkelanteil $\Phi_{lm}$ aufgeteilt:
 
 \begin{equation}
     \Psi_{nlm} (\vec{r}) = R_{nl}(r) \, \Phi_{lm}(\theta, \varphi)
@@ -54,7 +54,7 @@ und
     |m| &\leq l .
 \end{align*}
 
-Mit dem Seperationsansatz entstehen zwei entkoppelte Differentialgleichungen. Für dieses Experiment ist jedoch nur die Lösung des Winkelanteils interessant, da nur dieser in dem akustischen Modell modelliert werden kann. Dies führt für den Radialanteil und Winkelanteil zu folgender Differentialgleichung:
+Mit dem Separationsansatz entstehen zwei entkoppelte Differentialgleichungen. Für dieses Experiment ist jedoch nur die Lösung des Winkelanteils interessant, da nur dieser in dem akustischen Modell modelliert werden kann. Dies führt für den Radialanteil und Winkelanteil zu folgender Differentialgleichung:
 
 \begin{align}
     E R_{nl}(r) &= \left( - \frac{\hbar^2}{2mr} \frac{\partial^2}{\partial r^2} r - \frac{\hbar^2}{2mr^2} l(l+1) - \frac{e^2}{r} \right) R_{nl}(r)
@@ -136,12 +136,12 @@ Dadurch muss die Spinwellenfunktion antisymmetrisch sein, falls die Ortswellenfu
     \label{eqn:wellenfunktion4}
 \end{align}
 
-Hierbei bezeichnet $\uparrow_i$ und $\downarrow_i$ den jeweiligen Spin des jeweiligen Elektrons und $r_i$ bezeichnet die position im Raum des Elektrons. Dabei bilden die $\Psi_t$ Wellenfunktionen das \textit{Triplett} mit antisymmetrischer Ortswellenfunktion und symmetrischer Spinwellenfunktion, dies wird als \textit{Orthowasserstoff} bezeichnet. $\Psi_s$ ist das \textit{Singulett} mit antisymmetrischer Spinwellenfunktion und symmetrischer Ortswellenfunktion und wird als \textit{Parawasserstoff} bezeichnet. Beim Wasserstoffmolekül gibt es \textit{bindende} und \textit{anti-bindende Zustände}, diese werden durch den Phasenunterschied $\increment \varphi$ definiert. Nur bei einer Überlappung mit einem geraden Zustand, wirkt das Resultat bindend und bei einem Phasenunterschied von $\increment \varphi = \pi$ wird dieser Zustand als ungerade bezeichnet und wirkt antibindend.
+Hierbei bezeichnet $\uparrow_i$ und $\downarrow_i$ den jeweiligen Spin des jeweiligen Elektrons und $r_i$ bezeichnet die Position im Raum des Elektrons. Dabei bilden die $\Psi_t$ Wellenfunktionen das \textit{Triplett} mit antisymmetrischer Ortswellenfunktion und symmetrischer Spinwellenfunktion, dies wird als \textit{Orthowasserstoff} bezeichnet. $\Psi_s$ ist das \textit{Singulett} mit antisymmetrischer Spinwellenfunktion und symmetrischer Ortswellenfunktion und wird als \textit{Parawasserstoff} bezeichnet. Beim Wasserstoffmolekül gibt es \textit{bindende} und \textit{anti-bindende Zustände}, diese werden durch den Phasenunterschied $\increment \varphi$ definiert. Nur bei einer Überlappung mit einem geraden Zustand, wirkt das Resultat bindend und bei einem Phasenunterschied von $\increment \varphi = \pi$ wird dieser Zustand als ungerade bezeichnet und wirkt antibindend.
 
 \subsection{Der 1-dim Festkörper}
 \label{sec:festkoerper}
 
-Beim Festkörper kommt es durch das Pauli-Prinzip, das beschreibt dass 2 Fermionen wie Elektronen sich nicht gleichzeitig im selben Zustand befinden dürfen, im Gegensatz zum Wasserstoffatom nicht zu scharfen Spektrallinien sondern zu Energiebändern, die aus den \textit{erlaubten Zonen} bestehen. Zwischen den Energiebändern gibt es Bandlücken, die aus den \textit{verbotenen Zonen} bestehen. Um einen Festkörper zu modellieren werden Kastenpotentiale mit periodischen Randbedingungen verwendet. Dadurch ergibt sich in der Dispersionsrelation $E(\vec{k})$ in erster Näherung eine Proportionalität zu $k^2$. Die Dispersionsrelation beträgt:
+Beim Festkörper kommt es durch das Pauli-Prinzip, nachdem 2 Fermionen wie Elektronen sich nicht gleichzeitig im selben Zustand befinden dürfen, im Gegensatz zum Wasserstoffatom nicht zu scharfen Spektrallinien, sondern zu Energiebändern, die aus den \textit{erlaubten Zonen} bestehen. Zwischen den Energiebändern gibt es Bandlücken, die aus den \textit{verbotenen Zonen} bestehen. Um einen Festkörper zu modellieren werden Kastenpotentiale mit periodischen Randbedingungen verwendet. Dadurch ergibt sich in der Dispersionsrelation $E(\vec{k})$ in erster Näherung eine Proportionalität zu $k^2$. Die Dispersionsrelation beträgt:
 
 \begin{equation}
     E(k) = \frac{\hbar^2 k^2}{2 m}
@@ -176,7 +176,7 @@ Jedoch sind Festkörper in der Realität nicht zu $100 \%$ reine Kristalle und b
 \subsection{Analogie zum Wasserstoffatom und -molekül}
 \label{sec:analogien}
 
-Im Folgenden werden die Analogien zwischen akustischen Experimenten und dem Modell des Wasserstoffatom und Wasserstoffmolekül dargestellt. 
+Im Folgenden werden die Analogien zwischen akustischen Experimenten und dem Modell des Wasserstoffatoms und Wasserstoffmolekül dargestellt. 
 
 \subsubsection{Wasserstoffatom}
 \label{sec:ana-H}
@@ -188,7 +188,7 @@ Für einen Kugelresonator gilt im klassischen Fall die Helmholtzgleichung mit
     \label{eqn:helmholtz}
 \end{equation}
 
-wobei $p(\vec{r}, t)$ der Druck ist an der Stelle $\vec{r}$ zur Zeit $t$, $\rho$ und $\kappa$ sind dabei die Dichte und die Kompressibilität des Mediums bzw. der Luft. Ähnlich wie im quantenmechanischen Modell lässt sich die Zeitentwicklung von der räumlichen Entwicklung seperarieren, dafür wird folgender Ansatz verwendet:
+wobei $p(\vec{r}, t)$ der Druck ist an der Stelle $\vec{r}$ zur Zeit $t$, $\rho$ und $\kappa$ sind dabei die Dichte und die Kompressibilität des Mediums bzw. der Luft. Ähnlich wie im quantenmechanischen Modell lässt sich die Zeitentwicklung von der räumlichen Entwicklung separieren, dafür wird folgender Ansatz verwendet:
 
 \begin{equation}
     p(\vec{r}, t) = p(\vec{r}) \cdot \cos(\omega t)
@@ -202,7 +202,7 @@ Durch Einsetzen von $\nicefrac{1}{c^2} = \rho \kappa$, wobei $c$ die Schallgesch
     \label{eqn:stationaer}
 \end{equation}
 
-Äquivalent wie in Kapitel \ref{sec:H} kann dieses Problem durch Seperation mit $p(r, \theta, \varphi) = \Psi_{lm}(\theta, \varphi) \cdot R(r)$ in einen Radial- und Winkelanteil seperiert werden und es entstehen 2 unabhängige Gleichungen:
+Äquivalent wie in Kapitel \ref{sec:H} kann dieses Problem durch Separation mit $p(r, \theta, \varphi) = \Psi_{lm}(\theta, \varphi) \cdot R(r)$ in einen Radial- und Winkelanteil separiert werden und es entstehen 2 unabhängige Gleichungen:
 
 \begin{align}
     -l(l+1) \Psi_{lm} (\theta, \varphi) &= \Laplace_{\theta, \varphi} \, \Psi_{lm} (\theta, \varphi)
@@ -220,14 +220,14 @@ Der Vergleich zwischen der DGL \eqref{eqn:winkel_DGL} beim Wasserstoffatom und d
     \label{fig:modell}
 \end{figure}
 
-Ohne den Zwischenring wird durch die Stellung von Mikrofon und Lautsprecher und die Symmetrie derer nur die $m=0$ Moden angeregt. Durch Einsetzen eines Zwischenrings wie in Abbildung \ref{fig:modell} wird die Symmetrie gebrochen und es werden nun auch die $m \neq 0$ Moden angeregt. Dadurch wird die Entartung in $m$ teilweise aufgehoben. Dabei sind durch den Zwischenring nur noch die jeweiligen $+m$- und $-m$-Moden entartet. Die Kugelflächenfunktionen sind nun durch die Zwischenringe eigentlich auch keine exakte Lösungen mehr, aber sie sind immernoch näherungsweise eine Lösung des Systems. Im Allgemeinen ergeben die Messungen mit dem Mikrofon in der Analogie auch nur das Betragsquadrat $|\Psi|^2$ der Wellenfunktion und nicht die Wellenfunktion $\Psi$ an sich.
+Ohne den Zwischenring wird durch die Stellung von Mikrofon und Lautsprecher und die Symmetrie derer nur die $m=0$ Moden angeregt. Durch Einsetzen eines Zwischenrings wie in Abbildung \ref{fig:modell} wird die Symmetrie gebrochen und es werden nun auch die $m \neq 0$ Moden angeregt. Dadurch wird die Entartung in $m$ teilweise aufgehoben. Dabei sind durch den Zwischenring nur noch die jeweiligen $+m$- und $-m$-Moden entartet. Die Kugelflächenfunktionen sind nun durch die Zwischenringe eigentlich auch keine exakten Lösungen mehr, aber sie sind immer noch näherungsweise eine Lösung des Systems. Im Allgemeinen ergeben die Messungen mit dem Mikrofon in der Analogie auch nur das Betragsquadrat $|\Psi|^2$ der Wellenfunktion und nicht die Wellenfunktion $\Psi$ an sich.
 
 \subsubsection{Wasserstoffmolekül}
 \label{sec:ana-H2}
 
-Für das Wasserstoffmolekül werden zwei Kugelresonatorüber eine kreisförmige Blende miteinander verbunden. Genau wie im Wasserstoffmolekül sind die Wellenfunktionen der einzelnen Elektronen bzw. den einzelnen Kugelresonatoren miteinander gekoppelt und verbunden. Die dabei entstehenden Orbitale überlappen dann in den verbundenen Resonatoren. Genau wie beim Wasserstoffmolekül gibt es \textit{bindende} und \textit{anti-bindende Zustände}, diese werden auch über den Phasenunterschied $\increment \varphi$ definiert wie im Ende von Abschnitt \ref{sec:H2} beschrieben.
+Für das Wasserstoffmolekül werden zwei Kugelresonator über eine kreisförmige Blende miteinander verbunden. Genau wie im Wasserstoffmolekül sind die Wellenfunktionen der einzelnen Elektronen bzw. den einzelnen Kugelresonatoren miteinander gekoppelt und verbunden. Die dabei entstehenden Orbitale überlappen dann in den verbundenen Resonatoren. Genau wie beim Wasserstoffmolekül gibt es \textit{bindende} und \textit{anti-bindende Zustände}, diese werden auch über den Phasenunterschied $\increment \varphi$ definiert wie im Ende von Abschnitt \ref{sec:H2} beschrieben.
 
 \subsection{Analogie zum 1-dim Festkörpers}
 \label{ana-fest}
 
-Beim akustischen Analogon werden Aluminiumzylinder mit Irisblenden zu einer linearen Kette gereiht. Für einen zylindrischen Hohlraumresonator ist die Dispersionsrelation linear abhängig zur Wellenzahl $\kappa$, im Festkörper ist eine quadratischer Zusammenhang vorhanden. Resonanzen entstehen, wenn die Länge des Zylinders einem Vielfachen der Wellenlänge des Schalls entspricht. Die einzelnen Röhren werden mit Blenden aneinander gereiht, dadurch beeinflussen sich die einzelnen Resonatoren gegenseitig. Die Strecke von einer Blende zur nächsten entspricht im akustischen Analogon der ersten Brillouin-Zone. Der Durchmesser der Öffnungen der eingesetzten Blenden entspricht dann der Kopplungsstärke der einzelnen Resonatoren und jede Schallwelle wird beim Durchlaufen der Blende gestreut. Defekte stören die Periodizität in einem reellen Festkörper, im Akustikexperiment werden die Störungen durch einzelne Zylinder in der Kette simuliert, die entweder kürzer oder länger sind als die anderen. Dadurch entstehen Störungen in der Resonatorkette und diese können als Defekte bezeichnet werden.
+Beim akustischen Analogon werden Aluminiumzylinder mit Irisblenden zu einer linearen Kette gereiht. Für einen zylindrischen Hohlraumresonator ist die Dispersionsrelation linear abhängig zur Wellenzahl $\kappa$, im Festkörper ist ein quadratischer Zusammenhang vorhanden. Resonanzen entstehen, wenn die Länge des Zylinders einem Vielfachen der Wellenlänge des Schalls entspricht. Die einzelnen Röhren werden mit Blenden aneinander gereiht, dadurch beeinflussen sich die einzelnen Resonatoren gegenseitig. Die Strecke von einer Blende zur nächsten entspricht im akustischen Analogon der ersten Brillouin-Zone. Der Durchmesser der Öffnungen der eingesetzten Blenden entspricht dann der Kopplungsstärke der einzelnen Resonatoren und jede Schallwelle wird beim Durchlaufen der Blende gestreut. Defekte stören die Periodizität in einem reellen Festkörper, im Akustikexperiment werden die Störungen durch einzelne Zylinder in der Kette simuliert, die entweder kürzer oder länger sind als die anderen. Dadurch entstehen Störungen in der Resonatorkette und diese können als Defekte bezeichnet werden.
